@@ -8,20 +8,27 @@ body{
     font-family: sans-serif;
     border-top: 10px solid #1098ad;
 }
+
+.contanier{
+    width: 800px;
+    margin: 0 auto;
+}
 .main-header{
-    background-color: #f7f7f7;
+    background-color: #fff5f5;
     padding: 20px;
     padding: 20px 40px;
     margin-bottom: 60px;
+    height: 80px;
 }
 .post-header{
     margin-bottom: 40px;
 }
 aside{
-    background-color: #f7f7f7;
+    background-color: #fff5f5;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
     padding: 50px 0;
+    width: 500px;
 }
 
 h1,h2,h3,h4{
@@ -102,6 +109,10 @@ a:hover{
 a:active{
     background-color: black;
     font-style: italic;
+}
+.post-img{
+    width: 50%;
+    height: auto;
 }
 /* Resolving conflicts */
 #copyright{
