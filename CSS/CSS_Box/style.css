@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* Page Sections */
 body{
     color: #444;
     font-family: sans-serif;
@@ -18,7 +19,7 @@ body{
     padding: 20px;
     padding: 20px 40px;
     margin-bottom: 60px;
-    height: 80px;
+    /* height: 80px; */
 }
 .post-header{
     margin-bottom: 40px;
@@ -31,6 +32,7 @@ aside{
     width: 500px;
 }
 
+/* Smaller Elements */
 h1,h2,h3,h4{
     color: #1098ad;
 }
@@ -114,8 +116,24 @@ a:active{
     width: 50%;
     height: auto;
 }
+
+nav a:link {
+    /* background-color: orangered;
+    margin: 20px;
+    padding: 20px;
+
+    display: block; */
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+nav a:link:last-child{
+    margin-right: 0;
+}
+
 /* Resolving conflicts */
-#copyright{
+/* #copyright{
     color: red;
 }
 .copyright{
@@ -126,4 +144,4 @@ a:active{
 }
 footer p{
     color: green;
-}
+} */
