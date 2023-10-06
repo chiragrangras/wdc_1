@@ -8,6 +8,7 @@ body{
     color: #444;
     font-family: sans-serif;
     border-top: 10px solid #1098ad;
+    position: relative;
 }
 
 .contanier{
@@ -132,6 +133,15 @@ nav a:link:last-child{
     margin-right: 0;
 }
 
+button{
+    font-size: 22px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
 /* Resolving conflicts */
 /* #copyright{
     color: red;
