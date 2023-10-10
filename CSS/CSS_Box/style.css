@@ -11,6 +11,36 @@ body{
     position: relative;
 }
 
+h2{
+    /* background-color: orange; */
+    position: relative;
+}
+
+h2::after{
+    content: "TOP";
+    background-color: #ffe70e;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -15px;
+    right: -25px;
+}
+
+h2::first-letter{
+    font-size: 50px;
+}
+
+h3+p::first-line{
+    color: red;
+}
+
+h4+p::first-line{
+    color: red;
+}
+
 .contanier{
     width: 800px;
     margin: 0 auto;
