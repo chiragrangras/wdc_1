@@ -52,6 +52,11 @@ h4+p::first-line{
     margin-bottom: 60px;
     /* height: 80px; */
 }
+
+nav{
+    font-size: 15px;
+    text-align: center;
+}
 .post-header{
     margin-bottom: 40px;
 }
