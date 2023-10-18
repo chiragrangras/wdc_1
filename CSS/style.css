@@ -46,10 +46,41 @@ body{
 }
 .more-info:link, .more-info:visited {
     color: black;
+    margin-bottom: 30px;
+    display: inline-block;
 }
 .more-info:hover, .more-info:active{
     text-decoration: none;
 }
+
+.color{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.color-blue{
+    background-color: blue;
+}
+
+.color-red{
+    background-color: red;
+}
+
+.color-yellow{
+    background-color: yellow;
+}
+
+.color-green{
+    background-color: green;
+}
+
+.color-brown{
+    background-color: brown;
+}
+
 /* Product details */
 .details-title{
     font-weight: bold;
