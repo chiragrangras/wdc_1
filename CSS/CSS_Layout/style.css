@@ -29,10 +29,6 @@ h2::after{
     right: -25px;
 }
 
-h2::first-letter{
-    font-size: 50px;
-}
-
 h3+p::first-line{
     color: red;
 }
@@ -193,7 +189,11 @@ footer p{
 /* Floats */
 .author-img{
    float: left; 
+   margin-bottom: 50px;
 }
 .author{
-    padding:10px 0px 0px 80px;
+    /* padding-left: 80px; */
+    margin-left: 20px;
+    padding-top: 10px;
+    float: left;
 }
