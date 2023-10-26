@@ -51,7 +51,7 @@ h4+p::first-line{
 
 nav{
     font-size: 15px;
-    text-align: right;
+    text-align: center;
 }
 .post-header{
     margin-bottom: 40px;
@@ -196,4 +196,10 @@ footer p{
     margin-left: 20px;
     padding-top: 10px;
     float: left;
+}
+h1{
+    float: left;
+}
+nav{
+    float: right;
 }
