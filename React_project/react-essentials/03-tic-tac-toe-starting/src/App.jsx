@@ -7,7 +7,7 @@ import GameOver from "./components/GameOver.jsx";
 
 const PLAYERS = {
   X: 'Player 1',
-  Y: 'Player 2'
+  O: 'Player 2'
 }
 
 const INITIAL_GAME_BOARD = [
@@ -80,6 +80,17 @@ function App() {
 
       return updatedTurns;
     });
+
+    
+    // const currentPlayer = deriveActivePlayer(gameTurns);
+
+    // const updatedTurns = [
+    //   { square: { row: rowIndex, col: colIndex }, player: currentPlayer },
+    //   ...gameTurns,
+    // ];
+
+    // setGameTurns(...updatedTurns);
+      
   }
 
   function handleRestart() {
