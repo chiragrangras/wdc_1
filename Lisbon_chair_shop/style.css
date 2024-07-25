@@ -1,15 +1,25 @@
+/* 
+MAIN COLOUR: #087f5b;
+GREY COLOUR:#343a40;
+*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family:Inter;
     src: url("./Font/Inter-Regular.ttf");
 }
+
 body{
     font-family: Inter;
+    color: #343a40;
+    border-bottom:8px solid #087f5b;
 }
+
 .container{
     width: 960px;
     margin: 0 auto;
@@ -19,16 +29,43 @@ header,
 section{
     margin-bottom: 48px;
 }
+
 h2{
     margin-bottom: 48px;
     font-size: 36px;
     line-height: -0.5px;
 }
+
 .grid-3-cols{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 80px;
 }
+.btn:link,
+.btn:visited{
+    background-color:#087f5b;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #099268;
+}
+
+.btn--big{
+    font-size: 18px;
+    padding: 16px 32px;
+}
+
+.btn--small{
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
 header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -65,6 +102,9 @@ img{
 }
 /* TESTIMONIAL */
 .testimonial-section{
+    background-color: #087f5b;
+    color: white;
+    padding: 24px;
 }
 .testimonial-box{
     grid-column: 2/-1;
@@ -111,4 +151,5 @@ h3{
 footer{
     margin-bottom: 48px;
     font-size: 14px;
+    color: #495057;
 }
