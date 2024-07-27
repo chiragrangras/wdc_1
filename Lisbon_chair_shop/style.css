@@ -49,6 +49,7 @@ h2{
     text-transform: uppercase;
     font-weight: 500;
     display: inline-block;
+    border-radius: 100px;
 }
 
 .btn:hover,
@@ -66,6 +67,9 @@ h2{
     padding: 8px 12px;
 }
 
+img{
+    border-radius: 12px;
+}
 header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -110,6 +114,7 @@ img{
     background-color: #087f5b;
     color: white;
     padding: 24px;
+    border-radius: 12px;
 }
 .testimonial-box{
     grid-column: 2/-1;
@@ -128,6 +133,11 @@ img{
 /* CHAIRS */
 .chair{
     box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.07);
+    border-radius: 12px;
+}
+.chair img{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .chair-box{
