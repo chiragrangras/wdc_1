@@ -297,7 +297,7 @@
 /************************/
 
 .section-testimonials {
-  background-color:#fdf2e9;
+  background-color: #fdf2e9;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -333,7 +333,7 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
 }
@@ -360,7 +360,7 @@
   padding: 9.6rem 0;
 }
 
-.pricing-plan{
+.pricing-plan {
   border-radius: 11px;
   width: 75%;
 }
@@ -392,7 +392,7 @@
   padding: 0.8rem 8rem;
 }
 
-.plan-header{
+.plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
 }
@@ -428,4 +428,68 @@
 .plan-sing-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+.plan-details{
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.feature-icon {
+  background-color: #fdf2e9;
+  color: #e67e22;
+  padding: 1.6rem;
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+/************************/
+/* CTA SECTION */
+/************************/
+
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #e67e22; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+
+  background-image: linear-gradient(to right bottom,#eb984e,#e67e22);
+  overflow: hidden;
+
+  /* temp */
+  height: 50rem;
+}
+
+.cta-text-box {
+
+}
+
+.cta-img-box {
+  background-image: linear-gradient(to right bottom,
+  rgba(235, 152, 78, 0.35),
+  rgba(230, 126, 34, 0.35)
+  ),
+  url('../Img/eating.jpg');
+  background-size: cover;
+  background-position: center;
 }
