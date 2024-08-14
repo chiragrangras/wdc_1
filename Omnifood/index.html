@@ -9,7 +9,9 @@
   </head>
   <body>
     <header class="header">
-      <img class="logo" src="Img/Omnifood_logo.jpg" alt="Omnifood logo" />
+      <a href="#">
+        <img class="logo" src="Img/Omnifood_logo.jpg" alt="Omnifood logo" />
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">Section 1</a></li>
@@ -20,6 +22,15 @@
         </ul>
       </nav>
     </header>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
     <main>
       <section class="section-hero">
@@ -551,7 +562,7 @@
                     <option value="other">Other</option>
                   </select>
                 </div>
-                <button class="btn">Sign up now</button>
+                <button class="btn btn--form">Sign up now</button>
               </form>
             </div>
             <div
@@ -563,13 +574,15 @@
         </div>
       </section>
     </main>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+
+    <footer class="footer">
+      <div class="container grid grid--5-cols">
+        <div class="logo-col">Logo</div>
+        <div class="address-col">Address</div>
+        <nav class="nav-col">Nav 1</nav>
+        <nav class="nav-col">Nav 2</nav>
+        <nav class="nav-col">Nav 3</nav>
+      </div>
+    </footer>
   </body>
 </html>
