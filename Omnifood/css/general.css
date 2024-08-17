@@ -69,6 +69,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's brower font-size setting  */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -76,6 +77,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  /* Only works if there is nohing aboslutely 
+  positioned in related to body */
+  overflow-x: hidden;
 }
 
 /************************/
@@ -117,9 +121,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--5-cols {
+/* .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .grid--center-v {
   align-items: center;
