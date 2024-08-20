@@ -11,9 +11,27 @@ console.log(h1);
 //   h1.style.padding = "5rem";
 // });
 
+///////////////////////////////////////////////////////////
+// Set current year
 const yearEL = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEL.textContent = currentYear;
+
+///////////////////////////////////////////////////////////
+// Make Moblie navigation work
+
+const btnNavEL = document.querySelector(".btn-moblie-nav");
+const headerEL = document.querySelector(".header");
+
+btnNavEL.addEventListener("click", function () {
+  headerEL.classList.toggle("nav-open");
+});
+
+///////////////////////////////////////////////////////////
+// Smooth scrolling animation
+
+const allLinks = document.querySelectorAll("a:link");
+console.log(allLinks);
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
