@@ -45,7 +45,7 @@ allLinks.forEach(function (link) {
 
     // Scroll to other links
     if (href !== "#" && href.startsWith("#")) {
-
+ 
       const sectionEL = document.querySelector(href);
       sectionEL.scrollIntoView({behavior:"smooth"})
     }
