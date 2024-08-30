@@ -47,15 +47,40 @@ console.log(typeof year);
 console.log(typeof null);
 */
 
-let age = 30;
-age = 31;
+// let age = 30;
+// age = 31;
 
-const birthYear = 1991;
+// const birthYear = 1991;
 // birthYear = 1990;
 // const job;
 
-var job = 'programmer';
-job = 'teacher';
+// var job = 'programmer';
+// job = 'teacher';
 
-lastName = 'Schmedtmann';
-console.log(lastName);
+// lastName = 'Schmedtmann';
+// console.log(lastName);
+
+// Math operators
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2019;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+
+const firstName = "Jonas";
+const lastName = "Schmedtmenn";
+console.log(firstName + " " + lastName);
+
+// Assignment operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--;
+x--;
+console.log(x);
+
+// Comparison operators
+console.log(ageJonas > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
