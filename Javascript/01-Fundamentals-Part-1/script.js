@@ -225,7 +225,6 @@ if (hasDriverLicense && hasGoodVision && !isTired) {
 } else {
   console.log("Someone else should driver...");
 }
-*/
 
 const day = "";
 
@@ -266,3 +265,20 @@ if (day === "monday") {
 } else {
   console.log("Not a vaild day!");
 }
+*/
+
+const age = 30;
+// age >= 18 ? console.log('I like to drink wine') : console.log('I link to drink water');
+
+const drink = age >= 18 ? "wine" : "water";
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = "wine";
+} else {
+  drink2 = "water";
+}
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
