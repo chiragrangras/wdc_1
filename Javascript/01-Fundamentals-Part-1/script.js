@@ -203,7 +203,6 @@ if (favourite == 23) {
 }
 
 if (favourite !== 23) console.log("Why not 23?");
-*/
 
 const hasDriverLicense = true; // A
 const hasGoodVision = true; // B
@@ -213,7 +212,7 @@ console.log(hasDriverLicense || hasGoodVision);
 console.log(!hasDriverLicense);
 
 // if (hasDriverLicense && hasGoodVision) {
-//   console.log("Sarah is able to driver!");
+  //   console.log("Sarah is able to driver!");
 // } else {
 //   console.log("Someone else should driver...");
 // }
@@ -225,4 +224,45 @@ if (hasDriverLicense && hasGoodVision && !isTired) {
   console.log("Sarah is able to driver!");
 } else {
   console.log("Someone else should driver...");
+}
+*/
+
+const day = "";
+
+switch (day) {
+  case "monday":
+    console.log("Plan course structure");
+    console.log("Go to coding meetup");
+    break;
+  case "tuesday":
+    console.log("Prepare theory video");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("Wirte code examples");
+    break;
+  case "friday":
+    console.log("Record videos");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Enjoy the weekend");
+    break;
+  default:
+    console.log("Not a vaild day!");
+}
+
+if (day === "monday") {
+  console.log("Plan course structure");
+  console.log("Go to coding meetup");
+} else if (day === "tuesday") {
+  console.log("Prepare theory video");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("Wirte code examples");
+} else if (day === "friday") {
+  console.log("Record videos");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("Enjoy the weekend");
+} else {
+  console.log("Not a vaild day!");
 }
