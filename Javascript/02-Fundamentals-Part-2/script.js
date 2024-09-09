@@ -19,9 +19,14 @@ logger();
 logger();
 
 function fruitProcessor (apples, oranges) {
-    console.log(apples,oranges);
     const juise = `Juice with ${apples} apples and ${oranges} oranges.`;
     return juise;
 }
 
-fruitProcessor(5,0);
+const appleJuise = fruitProcessor(5,0);
+console.log(appleJuise);
+
+const appleOrangeJuice = fruitProcessor(2,4);
+console.log(appleOrangeJuice);
+
+const num = Number('23');
