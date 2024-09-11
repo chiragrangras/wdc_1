@@ -47,6 +47,7 @@ const age2 = calcAge2(1993);
 
 console.log(age1,age2);
 
+/////////////////////////////////////////////
 // Arrow function
 const calcAge3 = (birthYear) => 2024 - birthYear;
 const age3 = calcAge3(1994);
@@ -61,8 +62,9 @@ const yeasrUntilRetirement = (birthYear, firstName) => {
 
 console.log(yeasrUntilRetirement(1993, 'Jonas'));
 console.log(yeasrUntilRetirement(1980, 'Bob'));
-*/
 
+/////////////////////////////////////////////
+// Function Calling Other Functions 
 function cutFruitPieces(fruit){
     return fruit * 4;
 }
@@ -76,3 +78,18 @@ function fruitProcessor (apples, oranges) {
 }
 
 console.log(fruitProcessor(2,3));
+*/
+
+const calcAge = function (birthYear) {
+    return 2037 - birthYear;
+}
+
+const yeasrUntilRetirement = function (birthYear, firstName) {
+    const age = 2037 - birthYear;
+    const retirement = 65 - age;
+    return retirement;
+
+    //return `${firstName} retires in ${retirement} years`;
+};
+console.log(yeasrUntilRetirement(1991,'Jonas'));
+console.log(yeasrUntilRetirement(1970,'Mike'));
