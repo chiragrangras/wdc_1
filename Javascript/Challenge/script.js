@@ -63,6 +63,7 @@ const tip = bill >=50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 console.log(`The bill was ${bill}, the trip was ${tip}, and the total value ${bill + tip}`);
 */
 
+// Test 1
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 console.log(calcAverage(3, 4, 5));
 
@@ -80,4 +81,11 @@ const checkWinner = function (avgDolphins, avgKoalas) {
   }
 };
 
+checkWinner(scoreDolphins, scoreKoalas);
+checkWinner(576, 111);
+
+// Test 2
+scoreDolphins = calcAverage(85, 54, 41);
+scoreKoalas = calcAverage(23, 34, 27);
+console.log(scoreDolphins, scoreKoalas);
 checkWinner(scoreDolphins, scoreKoalas);
