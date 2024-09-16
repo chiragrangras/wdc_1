@@ -173,7 +173,6 @@ const jaonsArray = [
   'teacher',
   ['Micharl','Peter','Steven']
 ];
-*/
 
 const joans = {
   firstName : 'Joans',
@@ -182,4 +181,19 @@ const joans = {
   job : 'teacher',
   friends : ['Micharl','Peter','Steven']
 };
+*/
+const joans = {
+  firstName: "Joans",
+  lastName: "Schmedtmann",
+  age: 2037 - 1991,
+  job: "teacher",
+  friends: ["Micharl", "Peter", "Steven"],
+};
 console.log(joans);
+
+console.log(joans.lastName);
+console.log(joans["lastName"]);
+
+const nameKey = "Name";
+console.log(joans["first" + nameKey]);
+console.log(joans["last" + nameKey]);
