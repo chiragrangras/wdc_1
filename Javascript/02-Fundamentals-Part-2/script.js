@@ -174,6 +174,8 @@ const jaonsArray = [
   ['Micharl','Peter','Steven']
 ];
 
+//////////////////////////////////
+// Dot vs. Brackets Notations
 const joans = {
   firstName : 'Joans',
   lastName : 'Schmedtmann',
@@ -181,7 +183,6 @@ const joans = {
   job : 'teacher',
   friends : ['Micharl','Peter','Steven']
 };
-*/
 const joans = {
   firstName: "Joans",
   lastName: "Schmedtmann",
@@ -206,8 +207,8 @@ if (joans[interestedIn]) {
   console.log(joans[interestedIn]);
 } else {
   console.log(
-    "Wrong request! What do you want to know about Joans? Choose between firstName,lastName,age,job and friends"
-  );
+"Wrong request! What do you want to know about Joans? Choose between firstName,lastName,age,job and friends"
+);
 }
 
 joans.location = 'Portugal';
@@ -215,3 +216,26 @@ joans['twitter'] = '@joansschmedtman';
 console.log(joans);
 
 console.log(`${joans.firstName} has ${joans.friends.length} friends, and his best friend is called ${joans.friends[0]}`);
+*/
+const joans = {
+  firstName: "Joans",
+  lastName: "Schmedtmann",
+  birthYear: 1991,
+  job: "teacher",
+  friends: ["Micharl", "Peter", "Steven"],
+  hasDirversLicense: true,
+
+  // calcAge: function (birthYear) {
+  //   return 2037 - birthYear;
+  // }
+
+
+  calcAge: function () {
+    console.log(this);
+    return 2037 - this.birthYear;
+  }
+};
+
+console.log(joans.calcAge());
+
+// console.log(joans["calcAge"](1991));
