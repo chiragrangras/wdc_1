@@ -187,7 +187,7 @@ const joans = {
   lastName: "Schmedtmann",
   age: 2037 - 1991,
   job: "teacher",
-  friends: ["Micharl", "Peter", "Steven"],
+  friends: ["Michael", "Peter", "Steven"],
 };
 console.log(joans);
 
@@ -197,3 +197,21 @@ console.log(joans["lastName"]);
 const nameKey = "Name";
 console.log(joans["first" + nameKey]);
 console.log(joans["last" + nameKey]);
+
+const interestedIn = prompt(
+  "What do you want to know about Joans? Choose between firstName,lastName,age,job and friends"
+);
+
+if (joans[interestedIn]) {
+  console.log(joans[interestedIn]);
+} else {
+  console.log(
+    "Wrong request! What do you want to know about Joans? Choose between firstName,lastName,age,job and friends"
+  );
+}
+
+joans.location = 'Portugal';
+joans['twitter'] = '@joansschmedtman';
+console.log(joans);
+
+console.log(`${joans.firstName} has ${joans.friends.length} friends, and his best friend is called ${joans.friends[0]}`);
