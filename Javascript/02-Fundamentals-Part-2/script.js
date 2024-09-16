@@ -174,6 +174,7 @@ const jaonsArray = [
   ['Micharl','Peter','Steven']
 ];
 
+
 //////////////////////////////////
 // Dot vs. Brackets Notations
 const joans = {
@@ -183,6 +184,7 @@ const joans = {
   job : 'teacher',
   friends : ['Micharl','Peter','Steven']
 };
+
 const joans = {
   firstName: "Joans",
   lastName: "Schmedtmann",
@@ -207,8 +209,8 @@ if (joans[interestedIn]) {
   console.log(joans[interestedIn]);
 } else {
   console.log(
-"Wrong request! What do you want to know about Joans? Choose between firstName,lastName,age,job and friends"
-);
+    "Wrong request! What do you want to know about Joans? Choose between firstName,lastName,age,job and friends"
+  );
 }
 
 joans.location = 'Portugal';
@@ -222,20 +224,30 @@ const joans = {
   lastName: "Schmedtmann",
   birthYear: 1991,
   job: "teacher",
-  friends: ["Micharl", "Peter", "Steven"],
-  hasDirversLicense: true,
+  friends: ["Michael", "Peter", "Steven"],
+  hasDriversLicense: true,
 
   // calcAge: function (birthYear) {
   //   return 2037 - birthYear;
   // }
 
+  // calcAge: function () {
+  //   //console.log(this);
+  //   return 2037 - this.birthYear;
+  // }
 
   calcAge: function () {
-    console.log(this);
-    return 2037 - this.birthYear;
-  }
+    this.age = 2037 - this.birthYear;
+    return this.age;
+  },
+
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()} - year old ${
+      joans.job
+    }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's license.`;
+  },
 };
 
 console.log(joans.calcAge());
-
-// console.log(joans["calcAge"](1991));
+console.log(joans.age);
+console.log(joans.getSummary());
