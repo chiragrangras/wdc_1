@@ -349,7 +349,6 @@ for (let i = 0; i < jonas.length; i++) {
   
   console.log(jonas[i], typeof jonas[i]);
 }
-*/
 
 const jonas = [
   "Jonas",
@@ -368,9 +367,10 @@ for (i = jonas.length - 1; i >= 0; i--) {
 let exercise;
 for (exercise = 1; exercise <= 3; exercise++) {
   console.log(`------- Starting exercise ${exercise}`);
-
+  
   let rep;
   for (rep = 1; rep < 4; rep++) {
     console.log(`Exercise ${exercise}: Lifting weight repetition ${rep}`);
   }
 }
+*/
