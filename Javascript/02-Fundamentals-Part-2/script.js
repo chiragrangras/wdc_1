@@ -121,7 +121,7 @@ const joans = [firstName, "Schmedtmann", 2037 - 1991, "teacher", friends];
 console.log(joans);
 console.log(joans.length);
 
-// Excercise
+// exercise
 const calcAge = function (birthYear) {
   return 2037 - birthYear;
 };
@@ -284,7 +284,6 @@ if (mark.bmi > john.bmi) {
     `${john.fullName}'s BMI (${john.bmi}) is highter than ${mark.fullName}'s BMI (${mark.bmi})`
   );
 }
-*/
 // console.log("Lifting weights repetition 1");
 // console.log("Lifting weights repetition 2");
 // console.log("Lifting weights repetition 3");
@@ -347,6 +346,31 @@ for (let i = 0; i < jonas.length; i++) {
 console.log('----Break with Number----');
 for (let i = 0; i < jonas.length; i++) {
   if(typeof jonas[i] === 'number') break;
-
+  
   console.log(jonas[i], typeof jonas[i]);
+}
+*/
+
+const jonas = [
+  "Jonas",
+  "Schmedtmann",
+  2037 - 1991,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+
+let i;
+for (i = jonas.length - 1; i >= 0; i--) {
+  console.log(i, jonas[i]);
+}
+
+let exercise;
+for (exercise = 1; exercise <= 3; exercise++) {
+  console.log(`------- Starting exercise ${exercise}`);
+
+  let rep;
+  for (rep = 1; rep < 4; rep++) {
+    console.log(`Exercise ${exercise}: Lifting weight repetition ${rep}`);
+  }
 }
