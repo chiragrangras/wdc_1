@@ -350,6 +350,7 @@ for (let i = 0; i < jonas.length; i++) {
   console.log(jonas[i], typeof jonas[i]);
 }
 
+*/
 const jonas = [
   "Jonas",
   "Schmedtmann",
@@ -391,4 +392,3 @@ while (dice !== 6) {
   dice = Math.trunc(Math.random() * 6) + 1;
   if (dice === 6) console.log("Loop ia aboout end........");
 }
-*/
