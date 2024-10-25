@@ -50,7 +50,7 @@ body{
 
 
 /* open card */
-.card.open.left-card{
+.card.open .left-card{
     transform: rotateY(-180deg);
 }
 
