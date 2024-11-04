@@ -81,11 +81,11 @@
             <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
           </div>
           <div class="col-md-5 text-center d-none d-md-block">
-            <img
-              class="img-fluid"
-              src="./assets/ebook-cover.png"
-              alt="ebook cover"
-            />
+            <!-- tooltip -->
+            <span class="tt" data-bs-placement="bottom" title="Net Ninja Book Cover">
+              <img class="img-fluid" src="./assets/ebook-cover.png" alt="ebook cover"/>
+            </span>
+
           </div>
         </div>
       </div>
@@ -374,12 +374,27 @@
               <div class="mb-4 input-group">
                 <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
                 <input type="email" class="form-control" id="email" placeholder="e.g.mario@exmple.com"/>
+                <!-- tooltip-->
+                <span class="input-group-text">
+                  <spna class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
+                    <i class="bi bi-question-circle text-muted"></i>
+                  </spna>
+                </span>
               </div>
 
               <label for="name" class="form-label">Name :-</label>
               <div class="mb-4 input-group">
-                <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                <span class="input-group-text">
+                  <i class="bi bi-person-fill"></i>
+                </span>
                 <input type="name" class="form-control" id="name" placeholder="e.g.Mario"/>
+                <!-- tooltip -->
+                <span class="input-group-text">
+                  <spna class="tt" data-bs-placement="bottom" title="Pretty self explanatory really...">
+                    <i class="bi bi-question-circle text-muted"></i>
+                  </spna>
+                </span>
+
               </div>
 
               <label for="subject" class="form-label">
@@ -418,5 +433,11 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script>
+      const tooltips = document.querySelectorAll('.tt')
+      tooltips.forEach(t => {
+        new bootstrap.Tooltip(t)
+      })
+    </script>
   </body>
 </html>
