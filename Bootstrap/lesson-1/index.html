@@ -450,11 +450,24 @@
      </section>
 
     <!-- model itself -->
-     <div class="modul fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" 
+     <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" 
      aria-hidden="true">
      <div class="modal-dialog">
       <div class="modal-content">
-        div
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quam, aperiam voluptates officiis rem dignissimos accusantium ipsa quae reprehenderit voluptatibus 
+            maxime aut eligendi ut sed necessitatibus asperiores laborum velit maiores dolores!</p>
+            <label for="modal-email" class="form-label">Your email address :- </label>
+            <input type="email" class="form-control" id="modal-email" placeholder="e.g. mario@exmple.com">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
       </div>
      </div>
     </div>
