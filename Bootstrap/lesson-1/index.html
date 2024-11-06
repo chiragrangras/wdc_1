@@ -79,6 +79,11 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+            <!-- open sidebar / offcanvas -->
+             <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" 
+               role="button" aria-controls="sidebar">
+                Explore my other books
+             </a>
           </div>
           <div class="col-md-5 text-center d-none d-md-block">
             <!-- tooltip -->
@@ -367,7 +372,6 @@
         </div>
 
         <div class="row justify-content-center my-5">
-
           <div class="col-lg-6">
             <form>
               <label for="email" class="form-label">Email address :-</label>
@@ -381,7 +385,6 @@
                   </spna>
                 </span>
               </div>
-
               <label for="name" class="form-label">Name :-</label>
               <div class="mb-4 input-group">
                 <span class="input-group-text">
@@ -394,9 +397,7 @@
                     <i class="bi bi-question-circle text-muted"></i>
                   </spna>
                 </span>
-
               </div>
-
               <label for="subject" class="form-label">
                 What is your question about?
               </label>
@@ -410,7 +411,6 @@
                   <option value="other">Other query</option>
                 </select>
               </div>
-
               <div class="form-floating mb-4 mt-5">
                 <textarea name="" id="" class="form-control" style="height: 140px;"></textarea>
                 <label for="query">Your query....</label>
@@ -421,7 +421,6 @@
               </div>
             </form>
           </div>
-
         </div>
       </div>
      </section>
@@ -470,6 +469,17 @@
         </div>
       </div>
      </div>
+    </div>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sidebar-lable">My Other Books</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Veritatis quae rem, repudiandae eligendi explicabo error quod consequuntur recusandae porro assumenda?</p>
+      </div>
     </div>
 
     <script
