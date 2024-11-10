@@ -4,6 +4,6 @@
 .row{
     border: 3px solid red;
 }
-.col{
+.col,.col-3,.col-4,.col-6,.col-8{
     border: 3px solid green;
 }
