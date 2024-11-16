@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Ephesis;
+    src: url(./font/Ephesis-Regular.ttf);
+}
+.navbar{
+    font-size: 25px;
+    font-weight: 700;
+    background: #cfb53b;    
+}
+
+.navbar svg{
+    color: white;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item:hover a{
+    color: white;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro{
+    background:#f6f1db;
+}
+
+.img{
+    width: 745px;
+}
+
+.heading{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+}
+
+.author{
+    margin: 50px 0px 50px 0px;
+    font-size: 20px;
+}
+
+.reflection-btn{
+    padding: 10px 50px 10px 50px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    background: #cfb53b;
+}
+
+#website{
+    background-color: #28293e;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 100%, 50% 99%, 0 100%, 0 0);
+}
+
+.website_subheading {
+     color: #ef6d58;
+     font-weight: 700;
+     font-size: 25px;
+     padding: 40px 10px 0px 40px;
+     text-transform: uppercase;
+}
+.website_heading {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px 10px 10px 30px;
+}
+.website_contect {
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px 10px 10px 30px;
+}
+.website_signature {
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-family: Ephesis;
+    font-size: 40px;
+    padding: 10px 60px 30px 30px;
+}
