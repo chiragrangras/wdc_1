@@ -88,3 +88,8 @@
     font-size: 40px;
     padding: 10px 60px 30px 30px;
 }
+
+.journey-card{
+    display: flex;
+    justify-content: space-around;
+}
