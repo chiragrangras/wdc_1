@@ -58,7 +58,7 @@
 #website{
     background-color: #28293e;
     height: 100%;
-    clip-path: polygon(100% 0, 100% 100%, 50% 99%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 100%, 50% 95%, 0 100%, 0 0);
 }
 
 .website_subheading {
@@ -111,9 +111,15 @@ p{
 
 .card-1,.card-3{
     background-color: #f6f1db;
-    width: 28rem;
+    width: 30rem;
     height: auto;
-    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card-2{
+    background-color: #eee;
+    width: 30rem;
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -126,8 +132,55 @@ p{
 .card-img-1 img{
     width: 25rem;
     height: 15rem;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.card-img-1 img{
+    width: 27rem;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-1 img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-2 img{
+    width: 25rem;
+    height: 17rem;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.card-img-2 img{
+    width: 27rem;
+    height: 18rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-2 img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-3 img{
+    width: 25rem;
+    height: 15rem;
     margin: 20px 10px 10px 20px;
     border-radius: 20px;
+}
+
+.card-img-3 img{
+    width: 27rem;
+    height: 18rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-3 img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card-contect h5{
@@ -150,24 +203,31 @@ p{
     padding: 0 1.5rem 1.5rem 2.2rem;
 }
 
-.card-2{
-    background-color: #eee;
-    width: 30rem;
-    height: auto;
-    border-radius: 20px;
-    margin-bottom: 20px;
+#signup{
+    margin: 50px 20px;
+    background:#eee;
+    width: 1480px;
+    height: 115px;
+    display: flex;
 }
 
-.card-img-2 img{
-    width: 27rem;
-    height: 15rem;
-    margin: 20px 10px 10px 20px;
-    border-radius: 20px;
+.logo svg{
+    margin: 20px 10px 10px 100px;
 }
 
-.card-img-3 img{
-    width: 25rem;
-    height: 15rem;
-    margin: 20px 10px 10px 20px;
-    border-radius: 20px;
+.singup-text p {
+    margin: 20px 10px;
+}
+
+.signup-btn{
+    background-color: #cfb53b;
+    color: #eee;
+    border: none;
+    margin: 40px 30px;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.signup-btn:hover{
+    box-shadow: 0 0.5rem 1rem;
 }
