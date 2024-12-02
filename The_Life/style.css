@@ -5,7 +5,7 @@
 .navbar{
     font-size: 25px;
     font-weight: 700;
-    background: #cfb53b;    
+    background: #cfb53b;  
 }
 
 .navbar svg{
@@ -18,6 +18,7 @@
 
 .nav-item:hover a{
     color: white;
+    text-decoration: underline;
 }
 
 .navbar-nav{
@@ -203,7 +204,7 @@ p{
     padding: 0 1.5rem 1.5rem 2.2rem;
 }
 
-#signup{
+.content-card{
     margin: 50px 20px;
     background:#eee;
     width: 1480px;
@@ -220,14 +221,73 @@ p{
 }
 
 .signup-btn{
-    background-color: #cfb53b;
+    background-color: #e7c013;
     color: #eee;
     border: none;
-    margin: 40px 30px;
-    font-size: 1.125rem;
+    margin: 30px 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .signup-btn:hover{
-    box-shadow: 0 0.5rem 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content-text{
+    font-size: 22px;
+    line-height: 2;
+}
+
+.link{
+    color: #be9d09;
+}
+
+.link:hover{
+    color: #e7c013;
+    text-decoration: none;
+}
+
+.line {
+    border: 1px solid rgb(255, 100, 100);
+    margin: 40px 20px;
+    width: 1475px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 10px;
+}
+
+.input-btn{
+    display: flex;
+    gap: 30px;
+}
+
+h3{
+    color: #000;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+input {
+    display: block;
+    width: 20vw;
+    border: 1px solid #ed3131;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.news-btn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: white;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.news-btn:hover{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);   
 }
