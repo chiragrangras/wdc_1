@@ -2,6 +2,12 @@
     font-family: Ephesis;
     src: url(./font/Ephesis-Regular.ttf);
 }
+
+@font-face {
+    font-family: Epilogue-Bold;
+    src: url(./font/Epilogue-Bold.ttf);
+}
+
 .navbar{
     font-size: 25px;
     font-weight: 700;
@@ -226,7 +232,7 @@ p{
     border: none;
     margin: 30px 30px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .signup-btn:hover{
@@ -248,7 +254,7 @@ p{
 }
 
 .line {
-    border: 1px solid rgb(255, 100, 100);
+    border: 0.5px solid rgba(255, 100, 100,0.3);
     margin: 40px 20px;
     width: 1475px;
 }
@@ -264,30 +270,78 @@ p{
     gap: 30px;
 }
 
-h3{
+.newsletter-heading h3{
     color: #000;
-    font-size: 25px;
-    font-weight: 900;
+    font-size: 24px;
+    font-family: Epilogue-Bold;
+    font-weight: 700;
+    position: relative;
+    top: 8px;
+    right: 150px;
 }
 
 input {
     display: block;
     width: 20vw;
-    border: 1px solid #ed3131;
+    border: 0.2px solid #ed3131;
     border-radius: 10px;
     padding-left: 20px;
 }
 
 .news-btn{
-    padding: 10px 25px;
+    padding: 10px 80px;
     border-radius: 10px;
     background-color: white;
     color: #000;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
 }
 
 .news-btn:hover{
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);   
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);   
+}
+
+.footer {
+    margin: 80px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+svg{
+    margin-top: 30px;
+    color: #ef6d58;
+}
+
+.main-link {
+    color: #ef6d58;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.link a{
+    text-decoration: none;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.social-icons{
+    color: #ef6d58;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-line{
+    border: 0.5px solid rgba(239, 109, 88,0.3);
+    margin: 100px 0px 0px 100px;
+    width: 100px;
 }
