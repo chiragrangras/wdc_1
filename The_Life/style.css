@@ -341,7 +341,33 @@ svg{
 }
 
 .footer-line{
+    margin-top: 50px 0px;
     border: 0.5px solid rgba(239, 109, 88,0.3);
-    margin: 100px 0px 0px 100px;
-    width: 100px;
+    width: 1300px;
+}
+
+.footer-line{
+    border: 0.6px solid rgba(255, 100, 100,0.3);
+    width: 1460px;
+    margin: 50px 50px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright p{
+    font-size: 22px;
+    color: rgba(93, 38, 8,0.5);
+}
+
+.copyright-text ul{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    gap:3rem;
+    list-style: none;
+    cursor: pointer;
 }
