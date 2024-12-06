@@ -76,12 +76,13 @@
 }
 
 .website_subheading {
-     color: #ef6d58;
-     font-weight: 700;
-     font-size: 25px;
-     padding: 40px 10px 0px 40px;
-     text-transform: uppercase;
+    color: #ef6d58;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 40px 10px 0px 40px;
+    text-transform: uppercase;
 }
+
 .website_heading {
     color: white;
     font-weight: bold;
