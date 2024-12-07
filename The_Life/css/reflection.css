@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Epilogue;
+    src: url(../font/Epilogue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Epilogue-bold;
+    src: url(../font/Epilogue-Bold.ttf);
+}
+
 .header-wrapper{
     position: absolute;
     top: 0px;
@@ -24,17 +34,71 @@
     text-decoration: underline;
 }
 
-.navbar-nav{
-    display: flex;
-    justify-content: space-between;
+.reflection-heading{
+    color: #391400;
+    line-height: 1.11;
+    font-size: 52px;
+    font-weight: 900;
+    font-family: Epilogue;
+}
+
+.reflection-text{
+    background-color: #f6f1db;
+    border-radius: 20px;
+    width: 1430px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+.reflection-text p{
+    color: #391400;
+    font-size: 25px;
+}
+
+.reflection-img img{
+    border-radius: 20px;
+    width: 750px;
+    height: 390px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    z-index: 2;
+}
+
+.reflection-img img:hover{
+    transform: scale(1.05);
 }
 
 .container iframe{
-    margin: 40px 200px;
     border-radius: 20px;
 }
 
-.signup-btn{
+.giveup{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Epilogue-bold;
+}
+
+.line {
+    border: 0.5px solid rgba(255, 100, 100,0.3);
+    width: 1470px;
+}
+
+.author-img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text{
+    font-size: 25px;
+    font-family: Epilogue-bold;
+    cursor: pointer;
+}
+
+/* .signup-btn{
     background-color: #e7c013;
     color: #eee;
     border: none;
@@ -174,4 +238,4 @@ svg{
     gap:3rem;
     list-style: none;
     cursor: pointer;
-}
+} */
