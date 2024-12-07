@@ -1,11 +1,11 @@
 @font-face {
     font-family: Ephesis;
-    src: url(./font/Ephesis-Regular.ttf);
+    src: url(../font/Ephesis-Regular.ttf);
 }
-
+  
 @font-face {
-    font-family: Epilogue-Bold;
-    src: url(./font/Epilogue-Bold.ttf);
+    font-family: Epilogue-bold;
+    src: url(../font/Epilogue-Bold.ttf);
 }
 
 .header-wrapper{
@@ -34,11 +34,6 @@
     text-decoration: underline;
 }
 
-.navbar-nav{
-    display: flex;
-    justify-content: space-between;
-}
-
 #intro{
     background:#f6f1db;
 }
@@ -48,7 +43,6 @@
 }
 
 .heading{
-    margin-top: 20px;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
@@ -56,12 +50,11 @@
 }
 
 .author{
-    margin: 50px 0px 50px 0px;
     font-size: 20px;
 }
 
 .reflection-btn{
-    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
     text-decoration: none;
     font-size: 25px;
     font-weight: 700;
@@ -119,35 +112,25 @@ p{
     padding: 1rem 0 1rem 3.3rem;
 }
 
-.journey-card{
-    display: flex;
-    justify-content: space-around;
-}
-
 .card-1,.card-3{
     background-color: #f6f1db;
     width: 30rem;
     height: auto;
-    margin-bottom: 20px;
 }
 
 .card-2{
     background-color: #eee;
     width: 30rem;
     height: auto;
-    margin-bottom: 20px;
 }
 
 .inner{
-    display: flex;
-    flex-direction: column;
     gap: 1.5rem;
 }
 
 .card-img-1 img{
     width: 25rem;
     height: 15rem;
-    margin: 20px 20px 20px 20px;
     border-radius: 20px;
 }
 
@@ -165,7 +148,6 @@ p{
 .card-img-2 img{
     width: 25rem;
     height: 17rem;
-    margin: 20px 20px 20px 20px;
     border-radius: 20px;
 }
 
@@ -183,7 +165,6 @@ p{
 .card-img-3 img{
     width: 25rem;
     height: 15rem;
-    margin: 20px 10px 10px 20px;
     border-radius: 20px;
 }
 
@@ -219,19 +200,13 @@ p{
 }
 
 .content-card{
-    margin: 50px 20px;
     background:#eee;
     width: 1480px;
     height: 115px;
-    display: flex;
 }
 
 .logo svg{
     margin: 20px 10px 10px 100px;
-}
-
-.singup-text p {
-    margin: 20px 10px;
 }
 
 .signup-btn{
@@ -239,6 +214,7 @@ p{
     color: #eee;
     border: none;
     margin: 30px 30px;
+    border-radius: 10px;
     font-size: 20px;
     font-weight: 800;
 }
@@ -267,14 +243,7 @@ p{
     width: 1475px;
 }
 
-.newsletter {
-    display: flex;
-    justify-content: space-around;
-    margin: 35px 10px;
-}
-
 .input-btn{
-    display: flex;
     gap: 30px;
 }
 
@@ -289,15 +258,12 @@ p{
 }
 
 input {
-    display: block;
     width: 20vw;
     border: 0.2px solid #ed3131;
     border-radius: 10px;
-    padding-left: 20px;
 }
 
 .news-btn{
-    padding: 10px 80px;
     border-radius: 10px;
     background-color: white;
     color: #000;
@@ -311,14 +277,7 @@ input {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);   
 }
 
-.footer {
-    margin: 80px 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
 svg{
-    margin-top: 30px;
     color: #ef6d58;
 }
 
@@ -344,26 +303,12 @@ svg{
 
 .social-icons{
     color: #ef6d58;
-    display: flex;
     gap: 20px;
-}
-
-.footer-line{
-    margin-top: 50px 0px;
-    border: 0.5px solid rgba(239, 109, 88,0.3);
-    width: 1300px;
 }
 
 .footer-line{
     border: 0.6px solid rgba(255, 100, 100,0.3);
     width: 1460px;
-    margin: 50px 50px;
-}
-
-.copyright{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .copyright p{
@@ -373,8 +318,6 @@ svg{
 
 .copyright-text ul{
     margin-right: 50px;
-    display: flex;
-    align-items: center;
     gap:3rem;
     list-style: none;
     cursor: pointer;
