@@ -25,6 +25,11 @@
     color: white;
 }
 
+.navbar-nav{
+    display: flex;
+    gap: 100px;
+}
+
 .nav-item a{
     color: white;
 }
@@ -46,7 +51,7 @@
     background-color: #f6f1db;
     border-radius: 20px;
     width: 1430px;
-    height: 400px;
+    height: 360px;
     position: relative;
     z-index: 1;
 }
@@ -59,10 +64,10 @@
 .reflection-img img{
     border-radius: 20px;
     width: 750px;
-    height: 390px;
+    height: 400px;
     position: absolute;
-    top: 200px;
-    right: 100px;
+    top: 150px;
+    right: 90px;
     z-index: 2;
 }
 
@@ -227,6 +232,11 @@ svg{
 .copyright-text ul{
     margin-right: 50px;
     gap:3rem;
+    font-size: 20px;
     list-style: none;
     cursor: pointer;
+}
+
+.copyright-text li:hover{
+    text-decoration: underline;
 }

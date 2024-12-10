@@ -42,6 +42,11 @@
     width: 745px;
 }
 
+.navbar-nav{
+    display: flex;
+    gap: 100px;
+}
+
 .heading{
     font-size: 20px;
     text-transform: uppercase;
@@ -312,13 +317,18 @@ svg{
 }
 
 .copyright p{
-    font-size: 22px;
+    font-size: 25px;
     color: rgba(93, 38, 8,0.5);
 }
 
 .copyright-text ul{
     margin-right: 50px;
     gap:3rem;
+    font-size: 18px;
     list-style: none;
     cursor: pointer;
+}
+
+.copyright-text li:hover{
+    text-decoration: underline;
 }
