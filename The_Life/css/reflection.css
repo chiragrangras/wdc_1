@@ -92,32 +92,57 @@
     cursor: pointer;
 }
 
+.author-img:hover{
+    transform: scale(1.1);
+}
+
 .text{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Epilogue-bold;
     cursor: pointer;
 }
 
-/* .signup-btn{
-    background-color: #e7c013;
-    color: #eee;
-    border: none;
-    margin: 30px 30px;
-    font-size: 20px;
-    font-weight: 800;
+.experience-heading{
+    font-family: Epilogue-bold;
+    font-weight: 900;
+    font-size: 50px;
+    color: #391400;
 }
 
-.signup-btn:hover{
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+.experience-text{
+    color: #391400;
+    font-size: 25px;
 }
 
-.link{
-    color: #be9d09;
+.banner{
+    margin: 30px 250px;
 }
 
-.link:hover{
-    color: #e7c013;
-    text-decoration: none;
+.banner_shadow{
+    background-color: #f6f1db;
+    border-radius: 20px;
+    width: 950px;
+    height: 640px;
+}
+
+.banner_background img{
+    border-radius: 20px;
+    width: 915px;
+    height: 590px;
+    position: relative;
+    bottom: 685px;
+    right: 30px;
+    z-index: 2;
+}
+
+.banner_content img{
+    background-color: #ed3131;
+    width: 500px;
+    height: 225px;
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+    z-index: 5;
 }
 
 .line {
@@ -126,14 +151,7 @@
     width: 1475px;
 }
 
-.newsletter {
-    display: flex;
-    justify-content: space-around;
-    margin: 35px 10px;
-}
-
 .input-btn{
-    display: flex;
     gap: 30px;
 }
 
@@ -148,15 +166,12 @@
 }
 
 input {
-    display: block;
     width: 20vw;
     border: 0.2px solid #ed3131;
     border-radius: 10px;
-    padding-left: 20px;
 }
 
 .news-btn{
-    padding: 10px 80px;
     border-radius: 10px;
     background-color: white;
     color: #000;
@@ -170,14 +185,7 @@ input {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);   
 }
 
-.footer {
-    margin: 80px 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
 svg{
-    margin-top: 30px;
     color: #ef6d58;
 }
 
@@ -203,39 +211,22 @@ svg{
 
 .social-icons{
     color: #ef6d58;
-    display: flex;
     gap: 20px;
-}
-
-.footer-line{
-    margin-top: 50px 0px;
-    border: 0.5px solid rgba(239, 109, 88,0.3);
-    width: 1300px;
 }
 
 .footer-line{
     border: 0.6px solid rgba(255, 100, 100,0.3);
     width: 1460px;
-    margin: 50px 50px;
-}
-
-.copyright{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .copyright p{
-    margin: 0px 50px;
     font-size: 22px;
     color: rgba(93, 38, 8,0.5);
 }
 
 .copyright-text ul{
-    margin-right: 80px;
-    display: flex;
-    align-items: center;
+    margin-right: 50px;
     gap:3rem;
     list-style: none;
     cursor: pointer;
-} */
+}
