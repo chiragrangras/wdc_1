@@ -15,6 +15,13 @@
     width: 100%;
 }
 
+.header-navbar{
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+}
+
 .navbar{
     font-size: 25px;
     font-weight: 700;
