@@ -54,6 +54,10 @@
   gap: 100px;
 }
 
+.header{
+  margin-top: 80px;
+}
+
 .research-background-img {
   background-image: url(../Img/research-bg.jpg);
   background-repeat: no-repeat;

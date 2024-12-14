@@ -18,7 +18,7 @@
 .header-navbar{
     position: fixed;
     top: 0px;
-    z-index: 2;
+    z-index: 3;
     width: 100%;
 }
 
@@ -47,17 +47,18 @@
 }
 
 .reflection-heading{
+    margin: 150px 0px 50px 0px;
     color: #391400;
     line-height: 1.11;
-    font-size: 52px;
+    font-size: 60px;
     font-weight: 900;
-    font-family: Epilogue;
+    font-family: Epilogue-bold;
 }
 
 .reflection-text{
     background-color: #f6f1db;
     border-radius: 20px;
-    width: 1430px;
+    width: 1400px;
     height: 360px;
     position: relative;
     z-index: 1;
@@ -66,15 +67,16 @@
 .reflection-text p{
     color: #391400;
     font-size: 25px;
+    font-family: Epilogue;
 }
 
 .reflection-img img{
     border-radius: 20px;
-    width: 750px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
     position: absolute;
-    top: 150px;
-    right: 90px;
+    top: 200px;
+    right:120px;
     z-index: 2;
 }
 
@@ -102,6 +104,7 @@
     height: 300px;
     border-radius: 10px;
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .author-img:hover{
@@ -115,6 +118,7 @@
 }
 
 .experience-heading{
+    margin: 100px 50px 40px 50px;
     font-family: Epilogue-bold;
     font-weight: 900;
     font-size: 50px;
@@ -124,6 +128,7 @@
 .experience-text{
     color: #391400;
     font-size: 25px;
+    font-family: Epilogue;
 }
 
 .banner{
@@ -156,6 +161,32 @@
     right: 30px;
     z-index: 5;
 }
+
+.upside-img-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.img-icon{
+    margin: 80px 150px;
+}
+
+ul.social{
+    list-style: none;
+}
+
+.social{    
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.social svg{
+    margin: 20px 10px 10px 20px;
+    color: #000;
+}
+
 
 .line {
     border: 0.5px solid rgba(255, 100, 100,0.3);
