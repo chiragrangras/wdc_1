@@ -1,25 +1,54 @@
+@font-face {
+    font-family:Epilogue;
+    src: url(../font/Epilogue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Epilogue-bold;
+    src: url(../font/Epilogue-Bold.ttf);
+}
+
 #intro{
     background:#f6f1db;
 }
 
 .heading{
+    padding: 95px;
     font-size: 20px;
+    font-family: Epilogue;
     text-transform: uppercase;
-    font-weight: bold;
-    color: red;
+    font-weight: 700;
+    color: rgb(239, 109, 88);
+}
+
+.text h1{
+    padding: 50px;
+    font-family: Epilogue;
+    font-size: 94px;
+    color: rgb(57,20,0);
 }
 
 .author{
+    padding: 20px 0px 50px 50px;
+    font-family: Epilogue;
     font-size: 20px;
+    color: rgb(57,20,0);
 }
 
 .reflection-btn{
-    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
     text-decoration: none;
-    font-size: 25px;
+    font-family: Epilogue;
+    font-size: 20px;
     font-weight: 700;
     color: white;
-    background: #cfb53b;
+    background-color: rgb(207, 181, 59);
+}
+
+.reflection-btn:hover{
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 #website{
@@ -57,7 +86,7 @@
     padding: 10px 60px 30px 30px;
 }
 
-h1{
+/* h1{
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 800;
@@ -70,7 +99,7 @@ p{
     font-weight: 400;
     color: #391400;
     padding: 1rem 0 1rem 3.3rem;
-}
+} */
 
 .card-1,.card-3{
     background-color: #f6f1db;
