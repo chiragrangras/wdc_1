@@ -8,54 +8,12 @@
   src: url(../font/Epilogue-Bold.ttf);
 }
 
-.header-wrapper {
-  position: absolute;
-  top: 0px;
-  z-index: 2;
-  width: 100%;
-}
-
-.header-navbar{
-  position: fixed;
-  top: 0px;
-  z-index: 2;
-  width: 100%;
-}
-
-.navbar {
-  font-size: 25px;
-  font-weight: 700;
-  background: #cfb53b;
-}
-
-.navbar svg {
-  color: white;
-}
-
-.nav-item a {
-  color: white;
-}
-
-.nav-item:hover a {
-  color: white;
-  text-decoration: underline;
-}
-
 #intro {
   background: #f6f1db;
 }
 
 .img {
   width: 745px;
-}
-
-.navbar-nav {
-  display: flex;
-  gap: 100px;
-}
-
-.header{
-  margin-top: 80px;
 }
 
 .research-background-img {
