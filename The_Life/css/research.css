@@ -1,4 +1,9 @@
 @font-face {
+  font-family:Epilogue-Black;
+  src: url(../font/Epilogue-Black.ttf);
+}
+
+@font-face {
   font-family: Epilogue;
   src: url(../font/Epilogue-Regular.ttf);
 }
@@ -21,27 +26,34 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 650px;
+  height: 37rem;
 }
 
-.heading {
-  padding-top: 220px;
-  font-size: 60px;
-  font-weight: 900;
+.content{
+  color: #fff;
   text-align: center;
-  color: white;
 }
 
-.header-text p {
-  font-size: 30px;
-  text-align: center;
-  color: white;
+.content-heading{
+  padding-top: 190px;
+  font-size: 5rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.content-para{
+  padding: 30px 0px 0px 50px;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 400;
 }
 
 .practices-heading {
   color: #391400;
   font-family: Epilogue-bold;
-  font-size: 50px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.14;
 }
 
 .practices-para {
@@ -66,7 +78,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  height: 60vh;
+  height: 80vh;
 }
 
 .participate-heading {
@@ -94,27 +106,33 @@
   width: 1475px;
 }
 
+.newsltr{
+  height: 6em;
+}
+
 .input-btn {
   gap: 30px;
 }
 
 .newsletter-heading h3 {
   color: #000;
-  font-size: 24px;
-  font-family: Epilogue-Bold;
+  font-size: 30px;
+  font-family: Epilogue-Black;
   font-weight: 700;
   position: relative;
-  top: 8px;
-  right: 150px;
+  top: 10px;
+  right: 90px;
 }
 
 input {
-  width: 20vw;
+  width: 27vw;
   border: 0.2px solid #ed3131;
   border-radius: 10px;
 }
 
 .news-btn {
+  border: none;
+  padding: 10px 70px;
   border-radius: 10px;
   background-color: white;
   color: #000;
@@ -128,7 +146,8 @@ input {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-svg {
+.footer-logo svg{
+  margin: 60px 0px;
   color: #ef6d58;
 }
 
@@ -138,43 +157,41 @@ svg {
   font-size: 25px;
 }
 
-.hidden {
+.hidden{
   visibility: hidden;
 }
 
-.link a {
+.link a{
   text-decoration: none;
   line-height: 2.5;
   font-size: 20px;
 }
 
-.link a:hover {
-  text-decoration: underline;
-}
-
-.social-icons {
+.social-icons{
   color: #ef6d58;
   gap: 20px;
 }
 
-.footer-line {
-  border: 0.6px solid rgba(255, 100, 100, 0.3);
-  width: 1460px;
+.footer-line{
+  margin: 40px 30px;
+  border: 0.6px solid rgba(255, 100, 100,0.3);
+  width: 1475px;
 }
 
-.copyright p {
-  font-size: 22px;
-  color: rgba(93, 38, 8, 0.5);
+.copyright p{
+  margin-left: 50px;
+  font-size: 25px;
+  color: rgba(93, 38, 8,0.5);
 }
 
-.copyright-text ul {
+.copyright-text ul{
   margin-right: 50px;
-  gap: 3rem;
-  font-size: 20px;
+  gap:3rem;
+  font-size: 18px;
   list-style: none;
   cursor: pointer;
 }
 
-.copyright-text li:hover {
+.copyright-text li:hover{
   text-decoration: underline;
 }
