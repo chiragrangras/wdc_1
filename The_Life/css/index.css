@@ -1,21 +1,21 @@
 @font-face {
     font-family:Epilogue-Black;
-    src: url(../font/Epilogue-Black.ttf);
+    src: url('../font/Epilogue-Black.ttf');
 }
 
 @font-face {
     font-family:Epilogue;
-    src: url(../font/Epilogue.ttf);
+    src: url('../font/Epilogue.ttf');
 }
 
 @font-face {
     font-family: Epilogue-bold;
-    src: url(../font/Epilogue-Bold.ttf);
+    src: url('../font/Epilogue-Bold.ttf');
 }
 
 @font-face {
     font-family: Ephesis;
-    src: url(../font/Ephesis-Regular.ttf);
+    src: url('../font/Ephesis-Regular.ttf');
 }
 
 #intro{
@@ -34,8 +34,15 @@
 .text h1{
     padding: 50px;
     font-family: Epilogue;
-    font-size: 102px;
+    font-size: 104px;
     color: rgb(57,20,0);
+}
+
+.c-text{
+    text-decoration: underline;
+    font-weight: 800;
+    text-decoration-thickness: .30rem;
+    text-underline-offset: 1.25rem;
 }
 
 .author{
@@ -62,7 +69,7 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-#website{
+.website-wrapper{
     background-color: #28293e;
     height: 100%;
     clip-path: polygon(100% 0, 100% 100%, 50% 95%, 0 100%, 0 0);

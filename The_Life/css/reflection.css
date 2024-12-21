@@ -1,11 +1,11 @@
 @font-face {
   font-family: Epilogue;
-  src: url(../font/Epilogue-Regular.ttf);
+  src: url('../font/Epilogue-Regular.ttf');
 }
 
 @font-face {
   font-family: Epilogue-bold;
-  src: url(../font/Epilogue-Bold.ttf);
+  src: url('../font/Epilogue-Bold.ttf');
 }
 
 .reflection-heading {

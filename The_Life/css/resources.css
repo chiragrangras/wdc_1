@@ -1,11 +1,11 @@
 @font-face {
   font-family: Epilogue-Black;
-  src: url(../font/Epilogue-Black.ttf);
+  src: url('../font/Epilogue-Black.ttf');
 }
 
 @font-face {
   font-family: Epilogue;
-  src: url(../font/Epilogue-Regular.ttf);
+  src: url('../font/Epilogue-Regular.ttf');
 }
 
 .intro-background-img {
