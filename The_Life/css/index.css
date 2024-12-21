@@ -34,34 +34,39 @@
 .text h1{
     padding: 50px;
     font-family: Epilogue;
-    font-size: 104px;
+    font-size: 97px;
     color: rgb(57,20,0);
 }
 
 .c-text{
+    font-family: Epilogue-bold;
     text-decoration: underline;
     font-weight: 800;
-    text-decoration-thickness: .30rem;
-    text-underline-offset: 1.25rem;
+    text-decoration-thickness: .125rem;
+    text-underline-offset: .25rem;
 }
 
 .author{
-    padding: 20px 0px 50px 50px;
+    padding: 20px 0px 90px 41px;
     font-family: Epilogue;
-    font-size: 20px;
+    font-size: 32px;
+    font-weight: 500;
     color: rgb(57,20,0);
 }
 
 .reflection-btn{
-    padding: 20px 120px;
+    padding: .9375rem 6.25rem;
+    min-width: 20.125rem;
     text-align: center;
-    border-radius: 10px;
+    background-color: #cfb53b;
+    color: #fff;
+    border-radius: .375rem;
     text-decoration: none;
-    font-family: Epilogue;
-    font-size: 20px;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: Epilogue-Black;
     font-weight: 700;
-    color: white;
-    background-color: rgb(207, 181, 59);
+    line-height: 1;
 }
 
 .reflection-btn:hover{
@@ -75,29 +80,32 @@
     clip-path: polygon(100% 0, 100% 100%, 50% 95%, 0 100%, 0 0);
 }
 
-.website_subheading {
+.subtitle{
+    margin: 0px;
+    padding: 90px 20px 0px 40px;
     color: rgb(239, 109, 88);
     font-family: Epilogue;
+    font-size: 20px;
     font-weight: 700;
-    font-size: 25px;
-    padding: 90px 20px 20px 40px;
+    font-family: Epilogue;
     text-transform: uppercase;
 }
 
-.website_heading {
-    padding: 10px 10px 10px 30px;
-    font-family: Epilogue;
-    color: white;
-    font-weight: bold;
-    font-size: 40px;
+.title{
+    margin: 0px;
+    padding: 20px 0px 50px 30px;
+    color: #fff;
+    font-family: Epilogue-bold;
+    font-weight: 700;
+    font-size: 56px;
 }
 
-.website_contect {
+.section-body{
     padding: 10px 10px 10px 30px;
     font-family: Epilogue;
     color: white;
-    font-weight: bold;
-    font-size: 23px;
+    font-weight: 400;
+    font-size: 34px;
 }
 
 .website_signature {
@@ -106,7 +114,7 @@
     color: white;
     font-weight: bold;
     font-family: Ephesis;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .journey-heading{
