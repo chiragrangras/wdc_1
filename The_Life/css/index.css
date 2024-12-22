@@ -5,7 +5,7 @@
 
 @font-face {
     font-family:Epilogue;
-    src: url('../font/Epilogue.ttf');
+    src: url('../font/Epilogue-Regular.ttf');
 }
 
 @font-face {
@@ -23,7 +23,6 @@
 }
 
 .heading{
-    padding: 110px 10px 50px 60px;
     font-size: 20px;
     font-family: Epilogue-Black;
     text-transform: uppercase;
@@ -31,11 +30,15 @@
     color: rgb(239, 109, 88);
 }
 
-.text h1{
-    padding: 50px;
+.header-text h1{
     font-family: Epilogue;
     font-size: 97px;
     color: rgb(57,20,0);
+}
+
+.author-wrapper{
+    width: 71%;
+    height: 65%;
 }
 
 .c-text{
@@ -47,16 +50,13 @@
 }
 
 .author{
-    padding: 20px 0px 90px 41px;
     font-family: Epilogue;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 500;
     color: rgb(57,20,0);
 }
 
 .reflection-btn{
-    padding: .9375rem 6.25rem;
-    min-width: 20.125rem;
     text-align: center;
     background-color: #cfb53b;
     color: #fff;
@@ -67,6 +67,8 @@
     font-family: Epilogue-Black;
     font-weight: 700;
     line-height: 1;
+    min-width: 20.125rem;
+    padding: .9375rem 1.25rem;
 }
 
 .reflection-btn:hover{
@@ -278,44 +280,6 @@
     margin: 40px 30px;
     width: 1850px;
 }
-
-/* .newsletter{
-    margin: 70px 90px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
-
-.newsletter-text h3{
-    color: rgb(57, 20, 0);
-    font-family: Epilogue-Black;
-    font-size: 40px;
-}
-
-.newsltr-email{
-    width: 25rem;
-    font-family: Arial;
-    font-size: 20px;
-    font-weight: 600;
-    border: 0.2px solid #ed3131;
-    border-radius: 10px;
-}
-
-.button{
-    margin-left: 40px;
-    width: 250px;
-    border: none;
-    border-radius: 10px;
-    background-color: white;
-    color: #000;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
-}
-
-.button:hover{
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-} */
 
 .newsletter-heading h1{
     color:rgb(57, 20, 0);
