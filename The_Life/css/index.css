@@ -32,7 +32,8 @@
 
 .header-text h1{
     font-family: Epilogue;
-    font-size: 97px;
+    font-size: 75px;
+    line-height: 1.5;
     color: rgb(57,20,0);
 }
 
@@ -75,6 +76,7 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
+
 .website-wrapper{
     background-color: #28293e;
     height: 100%;
@@ -102,12 +104,12 @@
 }
 
 .section-body{
-    padding: 10px 10px 10px 30px;
+    padding: 30px;
     font-family: Epilogue;
     color: white;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 1.8;
+    font-size: 20px;
+    line-height: 32px;
 }
 
 .website_signature {
@@ -225,9 +227,20 @@
     padding: 0 1.5rem 1.5rem 2.2rem;
 }
 
+.card-link a:hover{
+    color: #391400;
+}
+
+.c-card{
+    text-align: center;
+    background-color: #eee;
+
+}
+
 .content-card{
+    margin: 60px;
     background:#eee;
-    width: 1800px;
+    width: 1628px;
     height: 115px;
 }
 
@@ -236,14 +249,14 @@
 }
 
 .singup-para{
-    padding: 30px 90px;
+    margin: 30px;
     font-family: Epilogue;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 2;
 }
 
 .signup-btn{
-    margin: 30px 100px;
+    margin: 30px 40px;
     background-color: #e7c013;
     color: #eee;
     border: none;
@@ -277,7 +290,7 @@
 .line {
     border: 0.5px solid rgba(255, 100, 100,0.3);
     margin: 40px 30px;
-    width: 1850px;
+    width: 1628px;
 }
 
 .newsletter-heading h1{
@@ -346,7 +359,7 @@ input {
 .footer-line{
     margin: 40px 30px;
     border: 0.6px solid rgba(255, 100, 100,0.3);
-    width: 1850px;
+    width: 1628px;
 }
 
 .copyright p{
