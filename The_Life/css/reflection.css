@@ -21,28 +21,30 @@
   background-color: #f6f1db;
   border-radius: 20px;
   width: 1400px;
-  height: 350px;
+  height: 380px;
   position: relative;
   z-index: 1;
 }
 
 .reflection-text p {
-  color: #391400;
-  font-size: 25px;
+  margin: 20px;
+  color: rgb(57, 20, 0);
+  font-size: 21px;
   font-family: Epilogue;
 }
 
 .reflection-img img {
   border-radius: 20px;
-  width: 600px;
-  height: 360px;
+  width: 700px;
+  height: 400px;
   position: absolute;
-  top: 150px;
-  right: 100px;
+  bottom: 60px;
+  right: 50px;
   z-index: 1;
 }
 
 .reflection-img img:hover {
+  transition: ease-in 0.3s;
   transform: scale(1.05);
 }
 
@@ -124,19 +126,11 @@
   z-index: 5;
 }
 
-.upside-img-text {
-  display: flex;
-  gap: 80px;
-}
-
 .upside-of-down {
   width: 334px;
   height: 334px;
 }
 
-.img-icon {
-  margin: 100px 20px 10px 200px;
-}
 
 ul.social {
   list-style: none;
