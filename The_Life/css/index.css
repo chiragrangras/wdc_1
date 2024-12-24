@@ -67,8 +67,8 @@
     font-family: Epilogue-Black;
     font-weight: 700;
     line-height: 1;
-    width: 322px;
-    padding: 15px 20px;
+    min-width: 20.125rem;
+    padding: .9375rem 1.25rem;
 }
 
 .reflection-btn:hover{
