@@ -99,7 +99,6 @@
     }
 }
 
-
 .c-text{
     font-family: Epilogue-bold;
     text-decoration: underline;
@@ -136,33 +135,41 @@
 
 
 .website-wrapper{
+    padding: 50px;
     background-color: #28293e;
     height: 100%;
     clip-path: polygon(100% 0, 100% 100%, 50% 95%, 0 100%, 0 0);
 }
 
 .subtitle{
-    margin: 0px;
-    padding: 90px 20px 0px 40px;
+    margin-bottom: 30px;
     color: rgb(239, 109, 88);
     font-family: Epilogue;
     font-size: 20px;
     font-weight: 700;
-    font-family: Epilogue;
     text-transform: uppercase;
 }
 
 .title{
-    margin: 0px;
-    padding: 20px 0px 50px 30px;
+    margin-bottom: 30px;
     color: #fff;
     font-family: Epilogue-bold;
     font-weight: 700;
-    font-size: 56px;
+}
+
+@media (min-width: 576px) {
+    .title{
+        font-size: 50px;
+    }
+}
+@media (min-width: 768px) {
+    .title{
+        font-size: 60px;
+    }
 }
 
 .section-body{
-    padding: 30px;
+    /* padding: 30px; */
     font-family: Epilogue;
     color: white;
     font-weight: 400;
@@ -197,6 +204,7 @@
 
 .card-1,.card-3{
     background-color: #f6f1db;
+    border-radius: 10px;
     width: 34rem;
     height: auto;
     padding: 25px;
@@ -204,6 +212,7 @@
 
 .card-2{
     background-color: #eee;
+    border-radius: 10px;
     width: 34rem;
     height: auto;
     padding: 25px;
@@ -296,15 +305,38 @@
 }
 
 .content-card{
-    margin: 60px;
-    background:#eee;
-    width: 1628px;
-    height: 115px;
+    margin: 50px;
+    background-color: #eee;
+    border-radius: 10px;
 }
 
-.logo svg{
-    margin: 20px 20px 20px 130px;
+@media (min-width: 576px) {
+    .content-card{
+        width: 550px;
+        height: 360px;
+    }
 }
+
+@media (min-width: 768px) {
+    .content-card{
+        width: 1780px;
+        height: 115px;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .logo svg{
+        margin: 30px 230px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo svg{
+        margin: 20px;
+    }
+}
+
 
 .singup-para{
     margin: 30px;
@@ -314,7 +346,6 @@
 }
 
 .signup-btn{
-    margin: 30px 40px;
     background-color: #e7c013;
     color: #eee;
     border: none;
@@ -322,6 +353,19 @@
     font-size: 25px;
     font-weight: 800;
 }
+
+@media (min-width: 576px) {
+    .signup-btn{
+        margin: 10px 120px;
+    }
+}
+
+@media (min-width: 768px) {
+    .signup-btn{
+        margin: 30px 40px;
+    }
+}
+
 
 .signup-btn:hover{
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
@@ -344,11 +388,21 @@
     text-decoration: none;
 }
 
-
 .line {
     border: 0.5px solid rgba(255, 100, 100,0.3);
     margin: 40px 30px;
-    width: 1628px;
+}
+
+@media (min-width: 576px) {
+    .line{
+        width: 650px;
+    }
+}
+
+@media (min-width: 768px) {
+    .line{
+        width: 1800px;
+    }
 }
 
 .newsletter-heading h1{
@@ -356,19 +410,36 @@
     font-size: 50px;
     font-family: Epilogue-Black;
     font-weight: 700;
-    position: relative;
-    top: 10px;
-    right: 150px;
+}
+
+@media (min-width: 576px) {
+    .newsletter-heading h1{
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }
 
 input {
-    width: 20vw;
     border: 0.2px solid #ed3131;
     border-radius: 10px;
 }
 
+@media (min-width: 576px) {
+    input{
+        width: 50vw;
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    input{
+        width: 20vw;
+        padding-left: 50px;
+    }
+}
+
 .input-btn{
-    gap: 50px;
+    gap: 30px;
 }
 
 .news-btn{
@@ -417,7 +488,18 @@ input {
 .footer-line{
     margin: 40px 30px;
     border: 0.6px solid rgba(255, 100, 100,0.3);
-    width: 1628px;
+}
+
+@media (min-width: 576px) {
+    .footer-line{
+        width: 650px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-line{
+        width: 1800px;
+    }
 }
 
 .copyright p{
