@@ -75,7 +75,7 @@
 
 @media (min-width: 576px) {
     .header-text h1{
-        font-size: 2.5rem;
+        font-size: 3.1rem;
     }
 }
 
@@ -103,8 +103,8 @@
     font-family: Epilogue-bold;
     text-decoration: underline;
     font-weight: 800;
-    text-decoration-thickness: .125rem;
-    text-underline-offset: .25rem;
+    text-decoration-thickness: .30rem;
+    text-underline-offset: .30rem;
 }
 
 .author{
@@ -159,9 +159,10 @@
 
 @media (min-width: 576px) {
     .title{
-        font-size: 48px;
+        font-size: 44px;
     }
 }
+
 @media (min-width: 768px) {
     .title{
         font-size: 60px;
@@ -186,35 +187,71 @@
 }
 
 .journey-heading{
-    padding: 5rem 0 0 3.3rem;
+    padding: 5rem 0 0 2.3rem;
     text-transform: uppercase;
     font-family: Epilogue-bold;
     font-size: 60px;
     color: #391400;
 }
 
+@media (min-width: 576px) {
+    .journey-heading{
+        font-size: 2.625rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .journey-heading{
+        font-size: 3.5rem;
+    }
+}
+
 .journey-para {
-    padding: 1rem 0 1rem 3.3rem;
+    padding: 2rem 0 0 2.3rem;
     font-family: Epilogue;
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #391400;
 }
 
 .card-1,.card-3{
+    padding: 25px;
     background-color: #f6f1db;
     border-radius: 10px;
-    width: 34rem;
-    height: auto;
-    padding: 25px;
+}
+
+@media (min-width: 576px) {
+    .card-1,.card-3{
+        width: 40rem;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-1,.card-3{
+        width: 34rem;
+        height: auto;
+    }
 }
 
 .card-2{
+    padding: 25px;
     background-color: #eee;
     border-radius: 10px;
-    width: 34rem;
-    height: auto;
-    padding: 25px;
+}
+
+@media (min-width: 576px) {
+    .card-2{
+        width: 40rem;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-2{
+        width: 34rem;
+        height: auto;
+    }
 }
 
 .inner{
@@ -224,9 +261,20 @@
 .card-img-1{
     position: relative;
     overflow: hidden;
-    width: 31rem;
-    height: 18rem;
     border-radius: 10px;
+}
+
+@media (min-width: 576px) {
+    .card-img-1{
+        width: 37rem;
+        height: 18rem;
+    }
+}
+@media (min-width: 768px) {
+    .card-img-1{
+        width: 31rem;
+        height: 18rem;
+    }
 }
 
 .zoom-img{
@@ -237,31 +285,54 @@
 }
 
 .card-img-1:hover .zoom-img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .card-img-2{
     position: relative;
     overflow: hidden;
-    width: 31rem;
-    height: 18rem;
     border-radius: 10px;
 }
 
+@media (min-width: 576px) {
+    .card-img-2{
+        width: 37rem;
+        height: 18rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-img-2{
+        width: 31rem;
+        height: 18rem;
+    }
+}
+
 .card-img-2:hover .zoom-img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .card-img-3{
     position: relative;
     overflow: hidden;
-    width: 31rem;
-    height: 18rem;
     border-radius: 10px;
 }
 
+@media (min-width: 576px) {
+    .card-img-3{
+        width: 37rem;
+        height: 18rem;
+    }
+}
+@media (min-width: 768px) {
+    .card-img-3{
+        width: 31rem;
+        height: 18rem;
+    }
+}
+
 .card-img-3:hover .zoom-img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .card-contect h5{
@@ -313,7 +384,7 @@
 
 @media (min-width: 576px) {
     .content-card{
-        width: 550px;
+        width: 630px;
         height: 360px;
     }
 }
@@ -328,7 +399,7 @@
 
 @media (min-width: 576px) {
     .logo svg{
-        margin: 30px 230px;
+        margin: 20px 300px;
     }
 }
 
@@ -376,7 +447,7 @@
     margin: 60px;
     color: rgb(57, 20, 0);
     font-family: Epilogue;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -420,6 +491,13 @@
     }
 }
 
+@media (min-width: 768px) {
+    .newsletter-heading h1{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
 input {
     border: 0.2px solid #ed3131;
     border-radius: 10px;
@@ -428,13 +506,15 @@ input {
 @media (min-width: 576px) {
     input{
         width: 50vw;
+        height: 20vh;
         padding-left: 30px;
     }
 }
 
 @media (min-width: 768px) {
     input{
-        width: 20vw;
+        width: 25vw;
+        height: 10vh;
         padding-left: 50px;
     }
 }
@@ -444,7 +524,6 @@ input {
 }
 
 .news-btn{
-    padding: 20px 100px;
     border: none;
     border-radius: 10px;
     background-color: white;
@@ -453,6 +532,20 @@ input {
     font-weight: 700;
     text-transform: uppercase;
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 576px) {
+    .news-btn{
+        width: 20vw;
+        height: 20vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .news-btn{
+        width: 15vw;
+        height: 10vh;
+    }
 }
 
 .news-btn:hover{
