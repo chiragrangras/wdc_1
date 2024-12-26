@@ -81,7 +81,7 @@
 
 @media (min-width: 768px) {
     .header-text h1{
-        font-size: 4.5rem;
+        font-size: 5.5rem;
     }
 }
 
@@ -135,7 +135,7 @@
 
 
 .website-wrapper{
-    padding: 50px;
+    padding: 80px;
     background-color: #28293e;
     height: 100%;
     clip-path: polygon(100% 0, 100% 100%, 50% 95%, 0 100%, 0 0);
@@ -159,7 +159,7 @@
 
 @media (min-width: 576px) {
     .title{
-        font-size: 50px;
+        font-size: 48px;
     }
 }
 @media (min-width: 768px) {
@@ -169,28 +169,27 @@
 }
 
 .section-body{
-    /* padding: 30px; */
     font-family: Epilogue;
     color: white;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 24px;
+    line-height: 35px;
 }
 
 .website_signature {
-    padding: 10px 60px 30px 30px;
+    margin: 40px;
     text-align: right;
     color: white;
     font-weight: bold;
     font-family: Ephesis;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .journey-heading{
     padding: 5rem 0 0 3.3rem;
     text-transform: uppercase;
     font-family: Epilogue-bold;
-    font-size: 70px;
+    font-size: 60px;
     color: #391400;
 }
 
@@ -266,21 +265,22 @@
 }
 
 .card-contect h5{
+    padding: 1rem 2.2rem;
     color: #391400;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Epilogue;
     font-weight: 900;
-    padding: 0 0 1.25rem 2.2rem;
 }
 
 .card-contect p{
+    margin: 0rem;
+    padding: 0.5rem 2.2rem;
     color: #391400;
     line-height: 2.5rem;
-    font-size: 23px;
+    font-size: 17px;
     font-family: Epilogue;
     font-weight: 500;
-    padding: 0 1.5rem 0 2.2rem;
 }
 
 .card-contect p a{
@@ -288,10 +288,11 @@
 }
 
 .card-link a{
+    margin: 0rem;
+    padding:0.5rem 2rem;
     color: #391400;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 500;
-    padding: 0 1.5rem 1.5rem 2.2rem;
 }
 
 .card-link a:hover{
