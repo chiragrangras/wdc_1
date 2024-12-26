@@ -506,7 +506,7 @@ input {
 @media (min-width: 576px) {
     input{
         width: 50vw;
-        height: 20vh;
+        height: 10vh;
         padding-left: 30px;
     }
 }
@@ -537,7 +537,7 @@ input {
 @media (min-width: 576px) {
     .news-btn{
         width: 20vw;
-        height: 20vh;
+        height: 10vh;
     }
 }
 

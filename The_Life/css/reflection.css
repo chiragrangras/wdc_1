@@ -1,11 +1,11 @@
 @font-face {
   font-family: Epilogue;
-  src: url('../font/Epilogue-Regular.ttf');
+  src: url("../font/Epilogue-Regular.ttf");
 }
 
 @font-face {
   font-family: Epilogue-bold;
-  src: url('../font/Epilogue-Bold.ttf');
+  src: url("../font/Epilogue-Bold.ttf");
 }
 
 .reflection-heading {
@@ -17,35 +17,45 @@
   font-family: Epilogue-bold;
 }
 
-.reflection-text {
+.card-inner {
+  margin: 50px;
   background-color: #f6f1db;
   border-radius: 20px;
-  width: 1400px;
-  height: 380px;
   position: relative;
-  z-index: 1;
+  width: 85rem;
+  height: 20rem;
 }
 
-.reflection-text p {
-  margin: 20px;
-  color: rgb(57, 20, 0);
-  font-size: 21px;
+.card-content{
+  max-width: 52%;
+}
+
+.content-text{
+  padding: 80px 50px;
+  color: #381400a3;
+  font-size: 1.375rem;
   font-family: Epilogue;
 }
 
-.reflection-img img {
-  border-radius: 20px;
-  width: 700px;
-  height: 400px;
+.reflection-img{
+  width: 40rem;
+  height: auto;
   position: absolute;
-  bottom: 60px;
-  right: 50px;
-  z-index: 1;
+  bottom: 70px;
+  left: 680px;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-.reflection-img img:hover {
-  transition: ease-in 0.3s;
-  transform: scale(1.05);
+.zoom-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.reflection-img:hover .zoom-img{
+  transform: scale(1.1);
 }
 
 .container iframe {
@@ -59,8 +69,20 @@
 }
 
 .line {
-  border: 0.5px solid rgba(255, 100, 100, 0.3);
-  width: 1470px;
+  border: 0.5px solid rgba(255, 100, 100,0.3);
+  margin: 40px 20px;
+}
+
+@media (min-width: 576px) {
+  .line{
+      width: 550px;
+  }
+}
+
+@media (min-width: 768px) {
+  .line{
+      width: 1450px;
+  }
 }
 
 .author-img {
@@ -131,7 +153,6 @@
   height: 334px;
 }
 
-
 ul.social {
   list-style: none;
 }
@@ -200,34 +221,54 @@ ul.social {
 .action-link:hover {
   color: white;
 }
-
-.line {
-  border: 0.5px solid rgba(255, 100, 100, 0.3);
-  margin: 40px 20px;
-  width: 1475px;
-}
-
-.input-btn {
-  gap: 30px;
-}
-
-.newsletter-heading h3 {
-  color: #000;
-  font-size: 24px;
-  font-family: Epilogue-Bold;
+.newsletter-heading h1{
+  color:rgb(57, 20, 0);
+  font-size: 50px;
+  font-family: Epilogue-Black;
   font-weight: 700;
-  position: relative;
-  top: 8px;
-  right: 150px;
+}
+
+@media (min-width: 576px) {
+  .newsletter-heading h1{
+      margin-bottom: 20px;
+      text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .newsletter-heading h1{
+      margin-bottom: 20px;
+      text-align: center;
+  }
 }
 
 input {
-  width: 20vw;
   border: 0.2px solid #ed3131;
   border-radius: 10px;
 }
 
-.news-btn {
+@media (min-width: 576px) {
+  input{
+      width: 50vw;
+      height: 10vh;
+      padding-left: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  input{
+      width: 25vw;
+      height: 10vh;
+      padding-left: 50px;
+  }
+}
+
+.input-btn{
+  gap: 30px;
+}
+
+.news-btn{
+  border: none;
   border-radius: 10px;
   background-color: white;
   color: #000;
@@ -237,8 +278,22 @@ input {
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
 }
 
-.news-btn:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+@media (min-width: 576px) {
+  .news-btn{
+      width: 20vw;
+      height: 10vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .news-btn{
+      width: 15vw;
+      height: 10vh;
+  }
+}
+
+.news-btn:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);   
 }
 
 svg {
@@ -270,24 +325,37 @@ svg {
   gap: 20px;
 }
 
-.footer-line {
-  border: 0.6px solid rgba(255, 100, 100, 0.3);
-  width: 1460px;
+.footer-line{
+  margin: 40px 20px;
+  border: 0.6px solid rgba(255, 100, 100,0.3);
 }
 
-.copyright p {
-  font-size: 22px;
-  color: rgba(93, 38, 8, 0.5);
+@media (min-width: 576px) {
+  .footer-line{
+      width: 550px;
+  }
 }
 
-.copyright-text ul {
+@media (min-width: 768px) {
+  .footer-line{
+      width: 1450px;
+  }
+}
+
+.copyright p{
+  margin-left: 50px;
+  font-size: 25px;
+  color: rgba(93, 38, 8,0.5);
+}
+
+.copyright-text ul{
   margin-right: 50px;
-  gap: 3rem;
-  font-size: 20px;
+  gap:3rem;
+  font-size: 18px;
   list-style: none;
   cursor: pointer;
 }
 
-.copyright-text li:hover {
+.copyright-text li:hover{
   text-decoration: underline;
 }
