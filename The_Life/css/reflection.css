@@ -148,6 +148,7 @@
 .author-img {
   width: 450px;
   height: 300px;
+  overflow: hidden;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -162,15 +163,15 @@
 }
 
 .author-img-wrapper::after {
-  content: ""; /* Required for pseudo-elements */
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hsl(21 100% 18% / 0.32); /* Mask color with opacity */
-  pointer-events: none; /* Ensures the image remains interactive */
-  mix-blend-mode: color; /* Optional: Adjust blending behavior */
+  background-color: rgba(92, 32, 0, 0.32);
+  pointer-events: none;
+  mix-blend-mode: color;
 }
 
 .text {
