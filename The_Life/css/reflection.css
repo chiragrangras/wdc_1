@@ -145,21 +145,34 @@
   }
 }
 
-.author-img {
-  width: 450px;
-  height: 300px;
+.author-img-wrapper{
+  position: relative;
+  display: inline-block;
+  width: 95%;
+  height: auto;
+  border-radius: 10px;
   overflow: hidden;
+}
+
+.last-img{
+  position: relative;
+  display: inline-block;
+  width: 77%;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.author-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .author-img:hover {
   transform: scale(1.1);
-}
-
-.author-img-wrapper{
-  position: relative;
-  display: inline-block;
 }
 
 .author-img-wrapper::after {
@@ -174,14 +187,13 @@
   mix-blend-mode: color;
 }
 
-.text {
+.title {
   font-size: 20px;
   font-family: Epilogue-bold;
   cursor: pointer;
 }
 
 .experience-heading {
-  margin: 100px 50px 40px 50px;
   font-family: Epilogue-bold;
   font-weight: 900;
   font-size: 50px;
