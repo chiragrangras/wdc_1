@@ -59,11 +59,27 @@
 @media (min-width: 576px) {
   .card-inner {
     padding: 1rem;
+    flex-direction: column-reverse;
   }
 }
 
 @media (min-width: 768px) {
   .card-inner {
+    padding: 5rem 4rem;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-inner {
+    flex-direction: column-reverse;
+    padding: 5rem 4rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card-inner {
+    flex-direction: row;
     padding: 5rem 4rem;
   }
 }
@@ -76,6 +92,18 @@
 }
 
 @media (min-width: 768px) {
+  .card-content {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-content {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
   .card-content {
     max-width: calc(42.5% - 1rem);
   }
@@ -91,6 +119,7 @@
   height: auto;
   overflow: hidden;
   border-radius: 10px;
+  display: flex;
 }
 
 @media (min-width: 576px) {
@@ -101,6 +130,20 @@
 }
 
 @media (min-width: 768px) {
+  .reflection-img {
+    max-width: 100%;
+    margin-top: calc(-10% - 5rem);
+  }
+}
+
+@media (min-width: 992px) {
+  .reflection-img {
+    max-width: 100%;
+    margin-top: calc(-10% - 5rem);
+  }
+}
+
+@media (min-width: 1400px) {
   .reflection-img {
     max-width: 56%;
     margin-top: calc(-10% - 5rem);
@@ -136,7 +179,7 @@
 
 .author-img-wrapper{
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   width: 95%;
   height: auto;
   border-radius: 10px;
