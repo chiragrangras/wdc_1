@@ -179,7 +179,6 @@
 
 .author-img-wrapper {
   position: relative;
-  /* display: inline-block; */
   width: 95%;
   height: auto;
   border-radius: 10px;
@@ -220,7 +219,7 @@
 .experience-heading {
   font-family: Epilogue-bold;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 45px;
   color: #391400;
 }
 
@@ -260,8 +259,7 @@
 }
 
 .upside-of-down {
-  width: 334px;
-  height: 334px;
+  width: 100%;
 }
 
 ul.social {
@@ -270,27 +268,27 @@ ul.social {
 
 .social {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
 }
 
 .social svg {
-  margin: 20px 10px 10px 20px;
+  margin: 2rem;
   color: #000;
 }
 
 .upside-heading {
-  margin: 100px 20px 0px 20px;
+  margin: 1rem;
   color: #391400;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 800;
   font-family: Epilogue-bold;
 }
 
 .upside-para {
-  margin: 10px 20px;
+  margin: 1rem;
   color: #391400;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Epilogue;
 }
 
@@ -302,14 +300,14 @@ ul.social {
 }
 
 .avater-text p {
-  margin: 0px;
+  margin: 0;
   font-size: 20px;
   color: #391400;
 }
 
 .action {
-  margin: 50px 150px 0px 0px;
-  padding: 15px 0px;
+  margin: 2rem;
+  padding: 0.5rem;
   background-color: #cfb53b;
   border-radius: 10px;
   text-align: center;
@@ -329,27 +327,34 @@ ul.social {
   cursor: pointer;
 }
 
+@media (min-width: 576px) {
+  .action-link {
+    font-size: 15px;
+  }
+}
+
 .action-link:hover {
   color: white;
 }
-.newsletter-heading h1 {
-  color: rgb(57, 20, 0);
+
+.newsletter-heading h1{
+  color:rgb(57, 20, 0);
   font-size: 50px;
   font-family: Epilogue-Black;
   font-weight: 700;
 }
 
 @media (min-width: 576px) {
-  .newsletter-heading h1 {
-    margin-bottom: 20px;
-    text-align: center;
+  .newsletter-heading h1{
+      margin-bottom: 20px;
+      text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  .newsletter-heading h1 {
-    margin-bottom: 20px;
-    text-align: center;
+  .newsletter-heading h1{
+      margin-bottom: 20px;
+      text-align: center;
   }
 }
 
@@ -359,26 +364,34 @@ input {
 }
 
 @media (min-width: 576px) {
-  input {
-    width: 50vw;
-    height: 10vh;
-    padding-left: 30px;
-  }
+  input{
+      width: 50vw;
+      height: 15vh;
+      padding-left: 30px;
+    }
 }
 
 @media (min-width: 768px) {
-  input {
-    width: 25vw;
-    height: 10vh;
-    padding-left: 50px;
+  input{
+      width: 35vw;
+      height: 15vh;
+      padding-left: 50px;
   }
 }
 
-.input-btn {
+@media (min-width: 992px) {
+  input{
+      width: 20vw;
+      height: 15vh;
+      padding-left: 50px;
+  }
+}
+
+.input-btn{
   gap: 30px;
 }
 
-.news-btn {
+.news-btn{
   border: none;
   border-radius: 10px;
   background-color: white;
@@ -390,24 +403,32 @@ input {
 }
 
 @media (min-width: 576px) {
-  .news-btn {
-    width: 30vw;
-    height: 10vh;
+  .news-btn{
+      width: 30vw;
+      height: 15vh;
   }
 }
 
 @media (min-width: 768px) {
-  .news-btn {
-    width: 15vw;
-    height: 10vh;
+  .news-btn{
+      width: 35vw;
+      height: 15vh;
   }
 }
 
-.news-btn:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+@media (min-width: 992px) {
+  .news-btn{
+      width: 20vw;
+      height: 15vh;
+  }
 }
 
-svg {
+.news-btn:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);   
+}
+
+.footer-logo svg{
+  margin: 60px 0px;
   color: #ef6d58;
 }
 
@@ -417,56 +438,42 @@ svg {
   font-size: 25px;
 }
 
-.hidden {
+.hidden{
   visibility: hidden;
 }
 
-.link a {
+.link a{
   text-decoration: none;
   line-height: 2.5;
   font-size: 20px;
 }
 
-.link a:hover {
-  text-decoration: underline;
-}
 
-.social-icons {
+.social-icons{
   color: #ef6d58;
   gap: 20px;
 }
 
-.footer-line {
-  margin: 40px 20px;
-  border: 0.6px solid rgba(255, 100, 100, 0.3);
+.footer-line{
+  margin: 40px 30px;
+  border: 0.6px solid rgba(255, 100, 100,0.3);
+  width: 90%;
 }
 
-@media (min-width: 576px) {
-  .footer-line {
-    width: 550px;
-  }
-}
-
-@media (min-width: 768px) {
-  .footer-line {
-    width: 1450px;
-  }
-}
-
-.copyright p {
+.copyright p{
   margin-left: 50px;
   font-size: 25px;
-  color: rgba(93, 38, 8, 0.5);
+  color: rgba(93, 38, 8,0.5);
 }
 
-.copyright-text ul {
+.copyright-text ul{
   margin-right: 50px;
-  gap: 3rem;
+  gap:3rem;
   font-size: 18px;
   list-style: none;
   cursor: pointer;
 }
 
-.copyright-text li:hover {
+.copyright-text li:hover{
   text-decoration: underline;
 }
