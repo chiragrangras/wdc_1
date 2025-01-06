@@ -28,13 +28,13 @@
 }
 
 @media (min-width: 576px) {
-  .reflection-heading-wrapper{
+  .reflection-heading-wrapper {
     padding: 2rem 0rem 5rem 1rem;
   }
 }
 
 @media (min-width: 768px) {
-  .reflection-heading-wrapper{
+  .reflection-heading-wrapper {
     padding: 4rem 2rem;
   }
 }
@@ -177,7 +177,7 @@
   width: 90%;
 }
 
-.author-img-wrapper{
+.author-img-wrapper {
   position: relative;
   /* display: inline-block; */
   width: 95%;
