@@ -173,7 +173,7 @@
 
 .line {
   border: 0.5px solid rgba(255, 100, 100, 0.3);
-  margin: 40px 20px;
+  margin: 2rem 1rem;
   width: 90%;
 }
 
@@ -373,7 +373,15 @@ input {
 
 @media (min-width: 768px) {
   input{
-      width: 35vw;
+      width: 40vw;
+      height: 15vh;
+      padding-left: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  input{
+      width: 40vw;
       height: 15vh;
       padding-left: 50px;
   }
@@ -417,6 +425,13 @@ input {
 }
 
 @media (min-width: 992px) {
+  .news-btn{
+      width: 40vw;
+      height: 15vh;
+  }
+}
+
+@media (min-width: 1200px) {
   .news-btn{
       width: 20vw;
       height: 15vh;
