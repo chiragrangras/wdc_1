@@ -46,7 +46,6 @@
 }
 
 .heading{
-    font-size: 1rem;
     font-family: Epilogue;
     text-transform: uppercase;
     font-weight: 600;
@@ -55,7 +54,7 @@
 
 @media (min-width: 576px) {
     .heading{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -74,7 +73,7 @@
 
 @media (min-width: 576px) {
     .header-text h1{
-        font-size: 2.4rem;
+        font-size: 3rem;
     }
 }
 
@@ -113,7 +112,7 @@
 
 @media (min-width: 576px) {
     .author{
-        font-size: .9rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -144,11 +143,17 @@
 }
 
 .subtitle{
-    margin-bottom: 30px;
     color: rgb(239, 109, 88);
     font-family: Epilogue;
-    font-size: 20px;
     text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+    .subtitle{
+        margin: 2rem 0;
+        font-size: 2rem;
+        font-weight: 600;
+    }
 }
 
 .title{
@@ -174,8 +179,8 @@
     font-family: Epilogue;
     color: white;
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 35px;
+    font-size: 1.5rem;
+    line-height: 2;
 }
 
 .website_signature {
@@ -213,9 +218,17 @@
     font-weight: 400;
     color: #391400;
 }
+
 @media (min-width: 576px) {
     .journey-para{
         font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .journey-para{
+        padding: 0rem 2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -227,14 +240,21 @@
 
 @media (min-width: 576px) {
     .card-1,.card-3{
-        width: 25rem;
+        width: 30rem;
         height: auto;
     }
 }
 
 @media (min-width: 768px) {
     .card-1,.card-3{
-        width: 34rem;
+        width: 43rem;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-1,.card-3{
+        width: 33rem;
         height: auto;
     }
 }
@@ -247,14 +267,21 @@
 
 @media (min-width: 576px) {
     .card-2{
-        width: 25rem;
+        width: 30rem;
         height: auto;
     }
 }
 
 @media (min-width: 768px) {
     .card-2{
-        width: 34rem;
+        width: 43rem;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-2{
+        width: 33rem;
         height: auto;
     }
 }
@@ -271,13 +298,21 @@
 
 @media (min-width: 576px) {
     .card-img-1{
-        width: 22rem;
+        width: 27rem;
         height: 18rem;
     }
 }
+
 @media (min-width: 768px) {
     .card-img-1{
-        width: 31rem;
+        width: 40rem;
+        height: 18rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-img-1{
+        width: 30rem;
         height: 18rem;
     }
 }
@@ -301,14 +336,21 @@
 
 @media (min-width: 576px) {
     .card-img-2{
-        width: 22rem;
+        width: 27rem;
         height: 18rem;
     }
 }
 
 @media (min-width: 768px) {
     .card-img-2{
-        width: 31rem;
+        width: 40rem;
+        height: 18rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-img-2{
+        width: 30rem;
         height: 18rem;
     }
 }
@@ -325,13 +367,21 @@
 
 @media (min-width: 576px) {
     .card-img-3{
-        width: 22rem;
+        width: 27rem;
         height: 18rem;
     }
 }
+
 @media (min-width: 768px) {
     .card-img-3{
-        width: 31rem;
+        width: 40rem;
+        height: 18rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-img-3{
+        width: 30rem;
         height: 18rem;
     }
 }
@@ -389,28 +439,41 @@
 
 @media (min-width: 576px) {
     .content-card{
-        width: 25rem;
-        height: 20rem;
+        width: 30rem;
+        height: 22rem;
     }
 }
 
 @media (min-width: 768px) {
     .content-card{
-        width: 25rem;
-        height: 20rem;
+        width: 42rem;
+        height: 25rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .content-card{
+        width: 90%;
+        height: 10%;
     }
 }
 
 
 @media (min-width: 576px) {
     .logo svg{
-        margin: 2rem 12rem;
+        margin: 2rem 14rem;
     }
 }
 
 @media (min-width: 768px) {
     .logo svg{
-        margin: 20px;
+        margin: 2rem 20rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo svg{
+        margin: 2rem 20rem;
     }
 }
 
@@ -423,11 +486,25 @@
 
 @media (min-width: 576px) {
     .singup-para{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .singup-para{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .singup-para{
+        font-size: 2rem;
     }
 }
 
 .signup-btn{
+    margin: 2rem 2rem;
+    font-size: 2rem;
     background-color: #e7c013;
     color: #eee;
     border: none;
@@ -438,13 +515,14 @@
 @media (min-width: 576px) {
     .signup-btn{
         margin: 0rem 2rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
 @media (min-width: 768px) {
     .signup-btn{
-        margin: 30px 40px;
+        margin: 0rem 2rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -461,7 +539,14 @@
 
 @media (min-width: 576px) {
     .content-text{
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .content-text{
+        padding: 0rem 1rem;
+        font-size: 1.6rem;
     }
 }
 
@@ -509,15 +594,15 @@ input {
 @media (min-width: 576px) {
     input{
         width: 50vw;
-        height: 10vh;
+        height: 15vh;
         padding-left: 30px;
     }
 }
 
 @media (min-width: 768px) {
     input{
-        width: 25vw;
-        height: 10vh;
+        width: 30vw;
+        height: 15vh;
         padding-left: 50px;
     }
 }
@@ -540,14 +625,14 @@ input {
 @media (min-width: 576px) {
     .news-btn{
         width: 30vw;
-        height: 10vh;
+        height: 15vh;
     }
 }
 
 @media (min-width: 768px) {
     .news-btn{
-        width: 15vw;
-        height: 10vh;
+        width: 25vw;
+        height: 15vh;
     }
 }
 
