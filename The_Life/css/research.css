@@ -106,45 +106,106 @@
 .line {
   border: 0.5px solid rgba(255, 100, 100, 0.3);
   margin: 40px 20px;
-  width: 1475px;
+  width: 90%;
 }
 
-.newsltr{
-  height: 6em;
-}
-
-.input-btn {
-  gap: 30px;
-}
-
-.newsletter-heading h3 {
-  color: #000;
-  font-size: 30px;
+.newsletter-heading h1{
+  color:rgb(57, 20, 0);
+  font-size: 50px;
   font-family: Epilogue-Black;
   font-weight: 700;
-  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .newsletter-heading h1{
+      margin-bottom: 20px;
+      text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .newsletter-heading h1{
+      margin-bottom: 20px;
+      text-align: center;
+  }
 }
 
 input {
-  /* width: 27vw; */
   border: 0.2px solid #ed3131;
   border-radius: 10px;
 }
 
-.news-btn {
+@media (min-width: 576px) {
+  input{
+      width: 50vw;
+      height: 15vh;
+      padding-left: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+  input{
+      width: 40vw;
+      height: 15vh;
+      padding-left: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  input{
+      width: 40vw;
+      height: 15vh;
+      padding-left: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  input{
+      width: 20vw;
+      height: 10vh;
+      padding-left: 50px;
+  }
+}
+
+.input-btn{
+  gap: 30px;
+}
+
+.news-btn{
   border: none;
-  /* padding: 10px 70px; */
   border-radius: 10px;
   background-color: white;
   color: #000;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
 }
 
-.news-btn:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+@media (min-width: 576px) {
+  .news-btn{
+      width: 30vw;
+      height: 15vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .news-btn{
+      width: 35vw;
+      height: 15vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .news-btn{
+      width: 20vw;
+      height: 10vh;
+  }
+}
+
+
+.news-btn:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);   
 }
 
 .footer-logo svg{
@@ -168,6 +229,7 @@ input {
   font-size: 20px;
 }
 
+
 .social-icons{
   color: #ef6d58;
   gap: 20px;
@@ -176,7 +238,7 @@ input {
 .footer-line{
   margin: 40px 30px;
   border: 0.6px solid rgba(255, 100, 100,0.3);
-  width: 1475px;
+  width: 90%;
 }
 
 .copyright p{
