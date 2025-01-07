@@ -477,6 +477,12 @@
     }
 }
 
+@media (min-width: 992px) {
+    .logo svg{
+        margin: 2rem 25rem;
+    }
+}
+
 
 .singup-para{
     margin: 30px;
@@ -492,7 +498,7 @@
 
 @media (min-width: 768px) {
     .singup-para{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -526,6 +532,13 @@
     }
 }
 
+@media (min-width: 992px) {
+    .signup-btn{
+        margin: 2rem 2rem;
+        font-size: 1.8rem;
+    }
+}
+
 .signup-btn:hover{
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
@@ -550,6 +563,13 @@
     }
 }
 
+@media (min-width: 992px) {
+    .content-text{
+        padding: 0rem 2rem;
+        font-size: 2rem;
+    }
+}
+
 .link{
     color: #be9d09;
 }
@@ -561,7 +581,7 @@
 
 .line {
     border: 0.5px solid rgba(255, 100, 100,0.3);
-    margin: 2rem 1rem;
+    margin: 4rem 2rem;
     width: 90%;
 }
 
@@ -607,6 +627,14 @@ input {
     }
 }
 
+@media (min-width: 992px) {
+    input{
+        width: 25vw;
+        height: 10vh;
+        padding-left: 50px;
+    }
+}
+
 .input-btn{
     gap: 30px;
 }
@@ -633,6 +661,13 @@ input {
     .news-btn{
         width: 25vw;
         height: 15vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .news-btn{
+        width: 25vw;
+        height: 10vh;
     }
 }
 
