@@ -18,7 +18,7 @@
 }
 
 .img {
-  width: 745px;
+  width: 100%;
 }
 
 .research-background-img {
@@ -35,19 +35,29 @@
 }
 
 .content-heading{
-  padding-top: 190px;
   font-family: Epilogue-black;
-  font-size: 72px;
   line-height: 1.2;
   font-weight: 800;
 }
 
+@media (min-width: 576px) {
+  .content-heading {
+    padding-top: 10rem;
+    font-size: 3rem;
+  }
+}
+
 .content-para{
-  padding: 20px;
   font-family: Epilogue;
-  font-size: 20px;
   line-height: 1.2;
   font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  .content-para {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
 }
 
 .practices-heading {
