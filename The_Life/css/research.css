@@ -47,6 +47,13 @@
   }
 }
 
+@media (min-width: 768px) {
+  .content-heading {
+    padding-top: 12rem;
+    font-size: 5rem;
+  }
+}
+
 .content-para{
   font-family: Epilogue;
   line-height: 1.2;
@@ -56,7 +63,12 @@
 @media (min-width: 576px) {
   .content-para {
     font-size: 1.5rem;
-    padding: 1rem;
+  }
+}
+
+@media (min-width: 76px) {
+  .content-para {
+    font-size: 2rem;
   }
 }
 
