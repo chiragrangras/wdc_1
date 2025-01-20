@@ -20,7 +20,7 @@
   background-position: center;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .intro-background-img {
     height: 20rem;
   }
@@ -39,7 +39,7 @@
   color: #ffffff;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .intro-heading {
     padding: 4rem 0rem 2rem 0rem;
     font-size: 3rem;
@@ -53,9 +53,9 @@
   color: #ffffff;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .intro-para {
-    font-size: 1.25rem;
+    font-size: 1.45rem;
   }
 }
 
@@ -65,10 +65,10 @@
   text-align: center;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .resources-heading {
-    margin: 2rem 0rem 0rem;
-    font-size: 2.5rem;
+    margin: 2rem 0.3rem;
+    font-size: 2rem;
   }
 }
 
@@ -79,7 +79,7 @@
   text-align: center;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .resources-para {
     font-size: 1.25rem;
   }
@@ -559,29 +559,69 @@
 }
 
 .line {
-  margin: 2rem 0rem;
+  margin: 2rem 2rem;
   border: 0.5px solid rgba(255, 100, 100, 0.3);
-  width: 90%;
+}
+
+@media(min-width : 320px){
+  .line{
+    width: 85vw;
+  }
+}
+
+@media(min-width : 768px){
+  .line{
+    width: 90vw;
+  }
+}
+
+.newsletter{
+  display: flex;
+}
+
+@media(min-width : 320px){
+  .newsletter{
+    flex-direction: column;
+  }
 }
 
 .newsletter-heading h1 {
   color: rgb(57, 20, 0);
   font-family: Epilogue-Black;
   font-weight: 700;
+  padding-bottom: 1rem;
 }
 
-@media (min-width: 576px) {
-  .newsletter-heading h1 {
-    margin: 2rem 0rem;
-    font-size: 3rem;
+@media (min-width :320px) {
+  .newsletter-heading h1{
     text-align: center;
+    font-size: 2rem;
   }
 }
 
-@media (min-width: 768px) {
-  .newsletter-heading h1 {
-    margin-bottom: 20px;
-    text-align: center;
+@media (min-width :768px) {
+  .newsletter-heading h1{
+    text-align: start;
+    padding-left: 2rem;
+    font-size: 2rem;
+  }
+}
+
+.input-btn {
+  gap: 30px;
+}
+
+@media(min-width : 320px){
+  .input-btn{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media(min-width : 768px){
+  .input-btn{
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -590,40 +630,26 @@ input {
   border-radius: 10px;
 }
 
-@media (min-width: 576px) {
-  input {
-    width: 50vw;
-    height: 15vh;
-    padding-left: 30px;
+@media(min-width : 320px){
+  input{
+    width: 80vw;
+    height: 20vw;
+    padding-left: 1rem;
   }
 }
 
-@media (min-width: 768px) {
-  input {
-    width: 40vw;
-    height: 15vh;
-    padding-left: 50px;
+@media(min-width : 768px){
+  input{
+    width: 70vw;
+    height: 10vw;
   }
 }
 
-@media (min-width: 992px) {
-  input {
-    width: 40vw;
-    height: 15vh;
-    padding-left: 50px;
+@media(min-width : 992px){
+  input{
+    width: 30vw;
+    height: 5vw;
   }
-}
-
-@media (min-width: 992px) {
-  input {
-    width: 20vw;
-    height: 10vh;
-    padding-left: 50px;
-  }
-}
-
-.input-btn {
-  gap: 30px;
 }
 
 .news-btn {
@@ -637,24 +663,24 @@ input {
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
 }
 
-@media (min-width: 576px) {
-  .news-btn {
+@media(min-width :320px){
+  .news-btn{
+    width: 80vw;
+    height: 20vw;
+  }
+}
+
+@media(min-width :768px){
+  .news-btn{
+    width: 70vw;
+    height: 10vw;
+  }
+}
+
+@media(min-width :992px){
+  .news-btn{
     width: 30vw;
-    height: 15vh;
-  }
-}
-
-@media (min-width: 768px) {
-  .news-btn {
-    width: 35vw;
-    height: 15vh;
-  }
-}
-
-@media (min-width: 992px) {
-  .news-btn {
-    width: 20vw;
-    height: 10vh;
+    height: 5vw;
   }
 }
 
