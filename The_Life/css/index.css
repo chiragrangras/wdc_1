@@ -49,37 +49,41 @@
     font-family: Epilogue;
     text-transform: uppercase;
     font-weight: 600;
+    line-height: 1.5;
     color: rgb(239, 109, 88);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
     .heading{
+        padding-top: 2rem;
         font-size: 1.5rem;
     }
 }
 
 @media (min-width: 768px) {
     .heading{
-        font-size: 2rem;
+        padding-top: 2rem;
+        font-size: 1rem;
     }
 }
 
 .header-text h1{
     font-family: Epilogue;
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.5;
     color: rgb(57,20,0);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
     .header-text h1{
-        font-size: 3rem;
+        font-size: 2.9rem;
+        padding-bottom: 1rem;
     }
 }
 
 @media (min-width: 768px) {
     .header-text h1{
-        font-size: 5.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -110,9 +114,17 @@
     color: rgb(57,20,0);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
     .author{
         font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .author{
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
     }
 }
 
@@ -128,6 +140,18 @@
     line-height: 1;
     width: 20.125rem;
     padding: .9375rem 1.25rem;
+}
+
+@media(min-width :320px){
+    .reflection-btn{
+        width: 18rem;
+    }
+}
+
+@media(min-width :768px){
+    .reflection-btn{
+        width: 18rem;
+    }
 }
 
 .reflection-btn:hover{
@@ -151,7 +175,7 @@
 @media (min-width: 576px) {
     .subtitle{
         margin: 2rem 0;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 600;
     }
 }
