@@ -63,14 +63,14 @@
 @media (min-width: 768px) {
   .heading {
     padding-top: 2rem;
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 }
 
 @media (min-width: 992px) {
   .heading {
-    padding-top: 2rem;
-    font-size: 1.2rem;
+    padding: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -90,14 +90,14 @@
 
 @media (min-width: 768px) {
   .header-text h1 {
-    font-size: 2rem;
+    font-size: 6rem;
   }
 }
 
 @media (min-width: 992px) {
   .header-text h1 {
     font-size: 5rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
   }
 }
 
@@ -110,7 +110,7 @@
 
 @media (min-width: 768px) {
   .author-wrapper {
-    width: 71%;
+    width: 100%;
     min-height: 570px;
   }
 }
@@ -152,7 +152,7 @@
 @media (min-width: 992px) {
   .author {
     font-size: 1.2rem;
-    padding-bottom: 5rem;
+    padding: 0rem 2rem 5rem 2rem;
   }
 }
 
@@ -183,6 +183,13 @@
   }
 }
 
+@media (min-width: 992px) {
+  .reflection-btn {
+    margin-left: 1rem;
+    width: 20rem;
+  }
+}
+
 .reflection-btn:hover {
   color: white;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -196,13 +203,13 @@
 
 @media (min-width: 320px) {
   .website-wrapper {
-    clip-path: polygon(100% 0, 100% 100%, 50% 98%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 100%, 50% 97%, 0 100%, 0 0);
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 768px) {
   .website-wrapper {
-    clip-path: polygon(100% 0, 100% 100%, 50% 95%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 100%, 50% 96%, 0 100%, 0 0);
   }
 }
 
@@ -215,6 +222,13 @@
 @media (min-width: 320px) {
   .subtitle {
     margin: 2rem 0;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .subtitle {
+    margin: 2rem 2rem;
     font-size: 1.5rem;
   }
 }
@@ -234,6 +248,7 @@
 
 @media (min-width: 768px) {
   .title {
+    padding: 0rem 1rem;
     font-size: 3rem;
   }
 }
@@ -247,6 +262,14 @@
 @media(min-width :320px){
     .section-body{
         font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
+@media(min-width :768px){
+    .section-body{
+        padding: 0rem 1rem;
+        font-size: 1.5rem;
         line-height: 1.5;
     }
 }
@@ -268,9 +291,9 @@
   color: #391400;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .journey-heading {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -287,9 +310,9 @@
   color: #391400;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .journey-para {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -307,10 +330,10 @@
   border-radius: 10px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .card-1,
   .card-3 {
-    width: 30rem;
+    width: 18rem;
     height: auto;
   }
 }
@@ -326,7 +349,7 @@
 @media (min-width: 992px) {
   .card-1,
   .card-3 {
-    width: 33rem;
+    width: 19rem;
     height: auto;
   }
 }
@@ -337,9 +360,9 @@
   border-radius: 10px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .card-2 {
-    width: 30rem;
+    width: 18rem;
     height: auto;
   }
 }
@@ -353,7 +376,7 @@
 
 @media (min-width: 992px) {
   .card-2 {
-    width: 33rem;
+    width: 19rem;
     height: auto;
   }
 }
@@ -368,10 +391,10 @@
   border-radius: 10px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .card-img-1 {
-    width: 27rem;
-    height: 18rem;
+    width: 15rem;
+    height: 10rem;
   }
 }
 
@@ -384,8 +407,8 @@
 
 @media (min-width: 992px) {
   .card-img-1 {
-    width: 30rem;
-    height: 18rem;
+    width: 16rem;
+    height: 10rem;
   }
 }
 
@@ -406,10 +429,10 @@
   border-radius: 10px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .card-img-2 {
-    width: 27rem;
-    height: 18rem;
+    width: 17rem;
+    height: 10rem;
   }
 }
 
@@ -422,8 +445,8 @@
 
 @media (min-width: 992px) {
   .card-img-2 {
-    width: 30rem;
-    height: 18rem;
+    width: 16rem;
+    height: 10rem;
   }
 }
 
@@ -437,10 +460,10 @@
   border-radius: 10px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .card-img-3 {
-    width: 27rem;
-    height: 18rem;
+    width: 15rem;
+    height: 10rem;
   }
 }
 
@@ -453,8 +476,8 @@
 
 @media (min-width: 992px) {
   .card-img-3 {
-    width: 30rem;
-    height: 18rem;
+    width: 16rem;
+    height: 10rem;
   }
 }
 
@@ -463,22 +486,46 @@
 }
 
 .card-contect h5 {
-  padding: 1rem 2.2rem;
   color: #391400;
   text-transform: uppercase;
-  font-size: 20px;
   font-family: Epilogue;
   font-weight: 900;
 }
 
+@media(min-width :320px){
+  .card-contect h5{
+    padding: 1rem 1rem;
+    font-size: 20px;
+  }
+}
+
+@media(min-width :992px){
+  .card-contect h5{
+    padding: 1rem 1rem;
+    font-size: 25px;
+  }
+}
+
 .card-contect p {
   margin: 0rem;
-  padding: 0.5rem 2.2rem;
   color: #391400;
   line-height: 2.5rem;
-  font-size: 17px;
   font-family: Epilogue;
   font-weight: 500;
+}
+
+@media(min-width :320px){
+  .card-contect p{
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+  }
+}
+
+@media(min-width :992px){
+  .card-contect p{
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+  }
 }
 
 .card-contect p a {
@@ -487,14 +534,14 @@
 
 .card-link a {
   margin: 0rem;
-  padding: 0.5rem 2rem;
-  color: #391400;
+  padding: 0.5rem 1rem;
+  color: #cfb53b;
   font-size: 18px;
   font-weight: 500;
 }
 
 .card-link a:hover {
-  color: #391400;
+  color: #cfb53b;
 }
 
 .c-card {
