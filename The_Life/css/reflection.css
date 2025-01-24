@@ -163,21 +163,45 @@
 }
 
 .container iframe {
-  width: min(100%,50rem);
+  width: min(100%, 50rem);
   aspect-ratio: 16/9;
   border-radius: 20px;
 }
 
 .giveup {
-  font-size: 30px;
+  padding: 1rem;
   font-weight: 600;
   font-family: Epilogue-bold;
 }
 
+@media (min-width: 320px) {
+  .giveup {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .giveup {
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+}
+
 .line {
+  margin: 2rem 2rem;
   border: 0.5px solid rgba(255, 100, 100, 0.3);
-  margin: 2rem 1rem;
-  width: 90%;
+}
+
+@media (min-width: 320px) {
+  .line {
+    width: 85vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .line {
+    width: 90vw;
+  }
 }
 
 .author-img-wrapper {
@@ -214,9 +238,20 @@
 }
 
 .title {
-  font-size: 20px;
   font-family: Epilogue-bold;
   cursor: pointer;
+}
+
+@media (min-width: 320px) {
+  .title {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
 }
 
 .experiences {
@@ -225,15 +260,37 @@
 
 .exp-heading {
   padding-bottom: 1rem;
-  font-size: 3.5rem;
   font-weight: 700;
   color: rgb(57, 20, 0);
 }
 
+@media (min-width: 320px) {
+  .exp-heading {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .exp-heading {
+    font-size: 3.5rem;
+  }
+}
+
 .exp-para {
   padding-bottom: 2rem;
-  font-size: 1.5rem;
   color: rgb(57, 20, 0);
+}
+
+@media(min-width :320px){
+  .exp-para{
+    font-size: 1.5rem;
+  }
+}
+
+@media(min-width :768px){
+  .exp-para{
+    font-size: 1.8rem;
+  }
 }
 
 .exp-body {
@@ -336,31 +393,67 @@ ul.social {
   align-items: center;
 }
 
+@media(min-width :320px){
+  .social{
+    padding-top: 2rem;
+    gap: 3rem;
+  }
+}
+
 .social svg {
-  margin: 2rem;
   color: #000;
 }
 
 .upside-heading {
-  margin: 1rem;
   color: #391400;
-  font-size: 30px;
   font-weight: 800;
   font-family: Epilogue-bold;
 }
 
+@media(min-width :320px){
+  .upside-heading{
+    padding: 2rem;
+    font-size: 3rem;
+  }
+}
+
+@media(min-width :768px){
+  .upside-heading{
+    padding: 1rem;
+    font-size: 3rem;
+  }
+}
+
 .upside-para {
-  margin: 1rem;
   color: #391400;
-  font-size: 18px;
   font-family: Epilogue;
 }
 
+@media(min-width :320px){
+  .upside-para{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+@media(min-width :768px){
+  .upside-para{
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+}
+
 .avatar {
-  margin-top: 20px;
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+@media(min-width :320px){
+  .avatar{
+    padding: 2rem;
+  }
 }
 
 .avater-text p {
@@ -370,12 +463,18 @@ ul.social {
 }
 
 .action {
-  margin: 2rem;
-  padding: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
   background-color: #cfb53b;
   border-radius: 10px;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media(min-width :768px){
+  .action{
+    width: 20rem;
+  }
 }
 
 .action:hover {
@@ -393,7 +492,13 @@ ul.social {
 
 @media (min-width: 320px) {
   .action-link {
-    font-size: 15px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .action-link {
+    font-size: 1rem;
   }
 }
 
@@ -410,15 +515,17 @@ ul.social {
 
 @media (min-width: 320px) {
   .newsletter-heading h1 {
-    margin-bottom: 20px;
+    padding-bottom: 2rem;
     text-align: center;
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 768px) {
   .newsletter-heading h1 {
-    margin-bottom: 20px;
-    text-align: center;
+    text-align: start;
+    padding-left: 2rem;
+    font-size: 2rem;
   }
 }
 
@@ -430,37 +537,13 @@ input {
 @media (min-width: 320px) {
   input {
     width: 50vw;
-    height: 15vh;
-    padding-left: 30px;
-  }
-}
-
-@media (min-width: 768px) {
-  input {
-    width: 40vw;
-    height: 15vh;
-    padding-left: 50px;
-  }
-}
-
-@media (min-width: 992px) {
-  input {
-    width: 40vw;
-    height: 15vh;
-    padding-left: 50px;
-  }
-}
-
-@media (min-width: 992px) {
-  input {
-    width: 20vw;
-    height: 15vh;
-    padding-left: 50px;
+    height: 15vw;
+    padding-left: 1rem;
   }
 }
 
 .input-btn {
-  gap: 30px;
+  gap: 10px;
 }
 
 .news-btn {
@@ -476,29 +559,22 @@ input {
 
 @media (min-width: 320px) {
   .news-btn {
-    width: 30vw;
-    height: 15vh;
+    width: 40vw;
+    height: 15vw;
   }
 }
 
 @media (min-width: 768px) {
   .news-btn {
-    width: 35vw;
-    height: 15vh;
+    width: 40vw;
+    height: 10vw;
   }
 }
 
 @media (min-width: 992px) {
   .news-btn {
-    width: 40vw;
-    height: 15vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  .news-btn {
-    width: 20vw;
-    height: 15vh;
+    width: 25vw;
+    height: 5vw;
   }
 }
 
