@@ -26,7 +26,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 33rem;
+}
+
+@media (min-width: 320px) {
+  .research-background-img {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .research-background-img {
+    height: 40.62rem;
+  }
 }
 
 .content{
@@ -40,9 +51,9 @@
   font-weight: 800;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .content-heading {
-    padding-top: 10rem;
+    padding-top: 3rem;
     font-size: 3rem;
   }
 }
@@ -60,8 +71,9 @@
   font-weight: 400;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .content-para {
+    padding-top: 3rem;
     font-size: 1.5rem;
   }
 }
@@ -80,7 +92,7 @@
   line-height: 1.14;
 }
 
-@media (min-width: 576px){
+@media (min-width: 320px){
   .practices-heading{
     font-size: 2.5rem;
   }
@@ -97,7 +109,7 @@
   font-family: Epilogue;
 }
 
-@media(min-width:576px){
+@media(min-width:320px){
   .practices-para {
     font-size: 1.25rem;
   }
@@ -125,7 +137,7 @@
   font-family: Epilogue-bold;
 }
 
-@media(min-width:576px){
+@media(min-width:320px){
   .contact-heading{
     font-size: 2.5rem;
   }
@@ -143,7 +155,7 @@
   width: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .typeform {
     height: 100vh;
   }
@@ -154,7 +166,7 @@
   font-family: Epilogue-bold;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .participate-heading {
     font-size: 2rem;
   }
@@ -176,7 +188,7 @@
   font-family: Epilogue-bold;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) {
   .participate-body h3{
     margin: 2rem 0rem 0rem;
     font-size: 1.87rem;
@@ -189,25 +201,53 @@
     font-size: 2.5rem;
   }
 }
-
-.newsletter-heading h1{
-  color:rgb(57, 20, 0);
-  font-family: Epilogue-Black;
-  font-weight: 700;
+.newsletter{
+  display: flex;
 }
 
-@media (min-width: 576px) {
-  .newsletter-heading h1{
-      margin: 2rem 0rem;
-      font-size: 3rem;
-      text-align: center;
+@media(min-width : 320px){
+  .newsletter{
+    flex-direction: column;
   }
 }
 
-@media (min-width: 768px) {
+.newsletter-heading h1 {
+  color: rgb(57, 20, 0);
+  font-family: Epilogue-Black;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+@media (min-width :320px) {
   .newsletter-heading h1{
-      margin-bottom: 20px;
-      text-align: center;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width :768px) {
+  .newsletter-heading h1{
+    text-align: start;
+    padding-left: 2rem;
+    font-size: 2rem;
+  }
+}
+
+.input-btn {
+  gap: 30px;
+}
+
+@media(min-width : 320px){
+  .input-btn{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media(min-width : 768px){
+  .input-btn{
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -216,43 +256,29 @@ input {
   border-radius: 10px;
 }
 
-@media (min-width: 576px) {
+@media(min-width : 320px){
   input{
-      width: 50vw;
-      height: 15vh;
-      padding-left: 30px;
-    }
-}
-
-@media (min-width: 768px) {
-  input{
-      width: 40vw;
-      height: 15vh;
-      padding-left: 50px;
+    width: 80vw;
+    height: 20vw;
+    padding-left: 1rem;
   }
 }
 
-@media (min-width: 992px) {
+@media(min-width : 768px){
   input{
-      width: 40vw;
-      height: 15vh;
-      padding-left: 50px;
+    width: 70vw;
+    height: 10vw;
   }
 }
 
-@media (min-width: 992px) {
+@media(min-width : 992px){
   input{
-      width: 20vw;
-      height: 10vh;
-      padding-left: 50px;
+    width: 30vw;
+    height: 5vw;
   }
 }
 
-.input-btn{
-  gap: 30px;
-}
-
-.news-btn{
+.news-btn {
   border: none;
   border-radius: 10px;
   background-color: white;
@@ -263,33 +289,39 @@ input {
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
 }
 
-@media (min-width: 576px) {
+@media(min-width :320px){
   .news-btn{
-      width: 30vw;
-      height: 15vh;
+    width: 80vw;
+    height: 20vw;
   }
 }
 
-@media (min-width: 768px) {
+@media(min-width :768px){
   .news-btn{
-      width: 35vw;
-      height: 15vh;
+    width: 70vw;
+    height: 10vw;
   }
 }
 
-@media (min-width: 992px) {
+@media(min-width :992px){
   .news-btn{
-      width: 20vw;
-      height: 10vh;
+    width: 30vw;
+    height: 5vw;
   }
 }
 
-
-.news-btn:hover{
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);   
+.news-btn:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.footer-logo svg{
+@media(min-width : 320px){
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer-logo svg {
   margin: 60px 0px;
   color: #ef6d58;
 }
