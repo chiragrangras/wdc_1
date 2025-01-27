@@ -121,6 +121,13 @@
   }
 }
 
+@media (min-width: 1400px) {
+  .header-text h1 {
+    line-height: 1.1;
+    font-size: 6.5rem;
+  }
+}
+
 @media (min-width: 576px) {
   .author-wrapper {
     width: 100%;
@@ -172,6 +179,13 @@
 @media (min-width: 992px) {
   .author {
     font-size: 1.2rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .author {
+    font-size: 1.5rem;
     padding-bottom: 5rem;
   }
 }
@@ -229,6 +243,12 @@
 @media (min-width: 768px) {
   .website-wrapper {
     clip-path: polygon(100% 0, 100% 100%, 50% 96%, 0 100%, 0 0);
+  }
+}
+
+@media (min-width: 1400px) {
+  .website-wrapper {
+    clip-path: polygon(100% 0, 100% 100%, 50% 93%, 0 100%, 0 0);
   }
 }
 
@@ -299,7 +319,7 @@
   color: white;
   font-weight: bold;
   font-family: Ephesis;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .journey-heading {
@@ -373,10 +393,10 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .card-1,
   .card-3 {
-    width: 25rem;
+    width: 35rem;
     height: auto;
   }
 }
@@ -408,9 +428,9 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .card-2 {
-    width: 25rem;
+    width: 35rem;
     height: auto;
   }
 }
@@ -446,10 +466,10 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .card-img-1 {
-    width: 22rem;
-    height: 10rem;
+    width: 31rem;
+    height: 15rem;
   }
 }
 
@@ -491,10 +511,10 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .card-img-2 {
-    width: 22rem;
-    height: 10rem;
+    width: 31rem;
+    height: 15rem;
   }
 }
 
@@ -529,10 +549,10 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .card-img-3 {
-    width: 22rem;
-    height: 10rem;
+    width: 31rem;
+    height: 15rem;
   }
 }
 

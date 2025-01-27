@@ -227,6 +227,13 @@
   }
 }
 
+@media (min-width :1400px) {
+  .newsletter-heading h1{
+    padding-left: 2rem;
+    font-size: 3rem;
+  }
+}
+
 .input-btn {
   gap: 30px;
 }
@@ -272,6 +279,13 @@ input {
   }
 }
 
+@media(min-width : 1400px){
+  input{
+    width: 25vw;
+    height: 5vw;
+  }
+}
+
 .news-btn {
   border: none;
   border-radius: 10px;
@@ -300,6 +314,13 @@ input {
 @media(min-width :992px){
   .news-btn{
     width: 30vw;
+    height: 5vw;
+  }
+}
+
+@media(min-width :1400px){
+  .news-btn{
+    width: 25vw;
     height: 5vw;
   }
 }
